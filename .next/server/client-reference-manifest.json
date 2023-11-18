@@ -851,7 +851,7 @@
         "id": "(sc_client)/./node_modules/next/dist/client/link.js",
         "name": "*",
         "chunks": [
-          "app/blog/[slug]/page:static/chunks/app/blog/[slug]/page.js"
+          "app/not-found:static/chunks/app/not-found.js"
         ],
         "async": false
       },
@@ -859,7 +859,7 @@
         "id": "(sc_client)/./node_modules/next/dist/client/link.js",
         "name": "",
         "chunks": [
-          "app/blog/[slug]/page:static/chunks/app/blog/[slug]/page.js"
+          "app/not-found:static/chunks/app/not-found.js"
         ],
         "async": false
       },
@@ -867,7 +867,205 @@
         "id": "(sc_client)/./node_modules/next/dist/client/link.js",
         "name": "default",
         "chunks": [
-          "app/blog/[slug]/page:static/chunks/app/blog/[slug]/page.js"
+          "app/not-found:static/chunks/app/not-found.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./public/images/404.jpg": {
+      "*": {
+        "id": "(sc_client)/./public/images/404.jpg",
+        "name": "*",
+        "chunks": [
+          "app/not-found:static/chunks/app/not-found.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./public/images/404.jpg",
+        "name": "",
+        "chunks": [
+          "app/not-found:static/chunks/app/not-found.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./public/images/404.jpg",
+        "name": "default",
+        "chunks": [
+          "app/not-found:static/chunks/app/not-found.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/image.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
+        "name": "*",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
+        "name": "",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
+        "name": "default",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/shared/lib/head.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
+        "name": "*",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
+        "name": "",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
+        "name": "default",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "defaultHead": {
+        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
+        "name": "defaultHead",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "charSet": {
+        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
+        "name": "charSet",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "name": {
+        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
+        "name": "name",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "content": {
+        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
+        "name": "content",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "\"title\"": {
+        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
+        "name": "\"title\"",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "\"base\"": {
+        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
+        "name": "\"base\"",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "\"meta\"": {
+        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
+        "name": "\"meta\"",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "TODO(prateekbh@)": {
+        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
+        "name": "TODO(prateekbh@)",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "\"https": {
+        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
+        "name": "\"https",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "here": {
+        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
+        "name": "here",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "https": {
+        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
+        "name": "https",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "reduceComponentsToState": {
+        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
+        "name": "reduceComponentsToState",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "headManager": {
+        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
+        "name": "headManager",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "inAmpMode": {
+        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
+        "name": "inAmpMode",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "value": {
+        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
+        "name": "value",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
         ],
         "async": false
       }
@@ -1128,1948 +1326,6 @@
         "name": "default",
         "chunks": [
           "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./node_modules/next/dist/client/image.js": {
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
-        "name": "*",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
-        "name": "",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
-        "name": "default",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./node_modules/next/dist/shared/lib/head.js": {
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
-        "name": "*",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
-        "name": "",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
-        "name": "default",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      },
-      "defaultHead": {
-        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
-        "name": "defaultHead",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      },
-      "charSet": {
-        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
-        "name": "charSet",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      },
-      "name": {
-        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
-        "name": "name",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      },
-      "content": {
-        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
-        "name": "content",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      },
-      "\"title\"": {
-        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
-        "name": "\"title\"",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      },
-      "\"base\"": {
-        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
-        "name": "\"base\"",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      },
-      "\"meta\"": {
-        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
-        "name": "\"meta\"",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      },
-      "TODO(prateekbh@)": {
-        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
-        "name": "TODO(prateekbh@)",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      },
-      "\"https": {
-        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
-        "name": "\"https",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      },
-      "here": {
-        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
-        "name": "here",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      },
-      "https": {
-        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
-        "name": "https",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      },
-      "reduceComponentsToState": {
-        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
-        "name": "reduceComponentsToState",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      },
-      "headManager": {
-        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
-        "name": "headManager",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      },
-      "inAmpMode": {
-        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
-        "name": "inAmpMode",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      },
-      "value": {
-        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
-        "name": "value",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./public/images/404.jpg": {
-      "*": {
-        "id": "(sc_client)/./public/images/404.jpg",
-        "name": "*",
-        "chunks": [
-          "app/not-found:static/chunks/app/not-found.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./public/images/404.jpg",
-        "name": "",
-        "chunks": [
-          "app/not-found:static/chunks/app/not-found.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/images/404.jpg",
-        "name": "default",
-        "chunks": [
-          "app/not-found:static/chunks/app/not-found.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./public/images/related-post-03.jpg": {
-      "*": {
-        "id": "(sc_client)/./public/images/related-post-03.jpg",
-        "name": "*",
-        "chunks": [
-          "app/blog/page:static/chunks/app/blog/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./public/images/related-post-03.jpg",
-        "name": "",
-        "chunks": [
-          "app/blog/page:static/chunks/app/blog/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/images/related-post-03.jpg",
-        "name": "default",
-        "chunks": [
-          "app/blog/page:static/chunks/app/blog/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./public/images/related-post-04.jpg": {
-      "*": {
-        "id": "(sc_client)/./public/images/related-post-04.jpg",
-        "name": "*",
-        "chunks": [
-          "app/blog/page:static/chunks/app/blog/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./public/images/related-post-04.jpg",
-        "name": "",
-        "chunks": [
-          "app/blog/page:static/chunks/app/blog/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/images/related-post-04.jpg",
-        "name": "default",
-        "chunks": [
-          "app/blog/page:static/chunks/app/blog/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./public/images/related-post-05.jpg": {
-      "*": {
-        "id": "(sc_client)/./public/images/related-post-05.jpg",
-        "name": "*",
-        "chunks": [
-          "app/blog/page:static/chunks/app/blog/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./public/images/related-post-05.jpg",
-        "name": "",
-        "chunks": [
-          "app/blog/page:static/chunks/app/blog/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/images/related-post-05.jpg",
-        "name": "default",
-        "chunks": [
-          "app/blog/page:static/chunks/app/blog/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./public/images/related-post-06.jpg": {
-      "*": {
-        "id": "(sc_client)/./public/images/related-post-06.jpg",
-        "name": "*",
-        "chunks": [
-          "app/blog/page:static/chunks/app/blog/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./public/images/related-post-06.jpg",
-        "name": "",
-        "chunks": [
-          "app/blog/page:static/chunks/app/blog/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/images/related-post-06.jpg",
-        "name": "default",
-        "chunks": [
-          "app/blog/page:static/chunks/app/blog/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./public/images/hero-bg-02.jpg": {
-      "*": {
-        "id": "(sc_client)/./public/images/hero-bg-02.jpg",
-        "name": "*",
-        "chunks": [
-          "app/testimonials/page:static/chunks/app/testimonials/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./public/images/hero-bg-02.jpg",
-        "name": "",
-        "chunks": [
-          "app/testimonials/page:static/chunks/app/testimonials/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/images/hero-bg-02.jpg",
-        "name": "default",
-        "chunks": [
-          "app/testimonials/page:static/chunks/app/testimonials/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./public/images/user-1.jpg": {
-      "*": {
-        "id": "(sc_client)/./public/images/user-1.jpg",
-        "name": "*",
-        "chunks": [
-          "app/testimonials/page:static/chunks/app/testimonials/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./public/images/user-1.jpg",
-        "name": "",
-        "chunks": [
-          "app/testimonials/page:static/chunks/app/testimonials/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/images/user-1.jpg",
-        "name": "default",
-        "chunks": [
-          "app/testimonials/page:static/chunks/app/testimonials/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./public/images/user-10.jpg": {
-      "*": {
-        "id": "(sc_client)/./public/images/user-10.jpg",
-        "name": "*",
-        "chunks": [
-          "app/testimonials/page:static/chunks/app/testimonials/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./public/images/user-10.jpg",
-        "name": "",
-        "chunks": [
-          "app/testimonials/page:static/chunks/app/testimonials/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/images/user-10.jpg",
-        "name": "default",
-        "chunks": [
-          "app/testimonials/page:static/chunks/app/testimonials/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./public/images/user-11.jpg": {
-      "*": {
-        "id": "(sc_client)/./public/images/user-11.jpg",
-        "name": "*",
-        "chunks": [
-          "app/testimonials/page:static/chunks/app/testimonials/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./public/images/user-11.jpg",
-        "name": "",
-        "chunks": [
-          "app/testimonials/page:static/chunks/app/testimonials/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/images/user-11.jpg",
-        "name": "default",
-        "chunks": [
-          "app/testimonials/page:static/chunks/app/testimonials/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./public/images/user-12.jpg": {
-      "*": {
-        "id": "(sc_client)/./public/images/user-12.jpg",
-        "name": "*",
-        "chunks": [
-          "app/testimonials/page:static/chunks/app/testimonials/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./public/images/user-12.jpg",
-        "name": "",
-        "chunks": [
-          "app/testimonials/page:static/chunks/app/testimonials/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/images/user-12.jpg",
-        "name": "default",
-        "chunks": [
-          "app/testimonials/page:static/chunks/app/testimonials/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./public/images/user-13.jpg": {
-      "*": {
-        "id": "(sc_client)/./public/images/user-13.jpg",
-        "name": "*",
-        "chunks": [
-          "app/testimonials/page:static/chunks/app/testimonials/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./public/images/user-13.jpg",
-        "name": "",
-        "chunks": [
-          "app/testimonials/page:static/chunks/app/testimonials/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/images/user-13.jpg",
-        "name": "default",
-        "chunks": [
-          "app/testimonials/page:static/chunks/app/testimonials/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./public/images/user-14.jpg": {
-      "*": {
-        "id": "(sc_client)/./public/images/user-14.jpg",
-        "name": "*",
-        "chunks": [
-          "app/testimonials/page:static/chunks/app/testimonials/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./public/images/user-14.jpg",
-        "name": "",
-        "chunks": [
-          "app/testimonials/page:static/chunks/app/testimonials/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/images/user-14.jpg",
-        "name": "default",
-        "chunks": [
-          "app/testimonials/page:static/chunks/app/testimonials/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./public/images/user-15.jpg": {
-      "*": {
-        "id": "(sc_client)/./public/images/user-15.jpg",
-        "name": "*",
-        "chunks": [
-          "app/testimonials/page:static/chunks/app/testimonials/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./public/images/user-15.jpg",
-        "name": "",
-        "chunks": [
-          "app/testimonials/page:static/chunks/app/testimonials/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/images/user-15.jpg",
-        "name": "default",
-        "chunks": [
-          "app/testimonials/page:static/chunks/app/testimonials/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./public/images/user-16.jpg": {
-      "*": {
-        "id": "(sc_client)/./public/images/user-16.jpg",
-        "name": "*",
-        "chunks": [
-          "app/testimonials/page:static/chunks/app/testimonials/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./public/images/user-16.jpg",
-        "name": "",
-        "chunks": [
-          "app/testimonials/page:static/chunks/app/testimonials/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/images/user-16.jpg",
-        "name": "default",
-        "chunks": [
-          "app/testimonials/page:static/chunks/app/testimonials/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./public/images/user-17.jpg": {
-      "*": {
-        "id": "(sc_client)/./public/images/user-17.jpg",
-        "name": "*",
-        "chunks": [
-          "app/testimonials/page:static/chunks/app/testimonials/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./public/images/user-17.jpg",
-        "name": "",
-        "chunks": [
-          "app/testimonials/page:static/chunks/app/testimonials/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/images/user-17.jpg",
-        "name": "default",
-        "chunks": [
-          "app/testimonials/page:static/chunks/app/testimonials/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./public/images/user-18.jpg": {
-      "*": {
-        "id": "(sc_client)/./public/images/user-18.jpg",
-        "name": "*",
-        "chunks": [
-          "app/testimonials/page:static/chunks/app/testimonials/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./public/images/user-18.jpg",
-        "name": "",
-        "chunks": [
-          "app/testimonials/page:static/chunks/app/testimonials/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/images/user-18.jpg",
-        "name": "default",
-        "chunks": [
-          "app/testimonials/page:static/chunks/app/testimonials/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./public/images/user-19.jpg": {
-      "*": {
-        "id": "(sc_client)/./public/images/user-19.jpg",
-        "name": "*",
-        "chunks": [
-          "app/testimonials/page:static/chunks/app/testimonials/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./public/images/user-19.jpg",
-        "name": "",
-        "chunks": [
-          "app/testimonials/page:static/chunks/app/testimonials/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/images/user-19.jpg",
-        "name": "default",
-        "chunks": [
-          "app/testimonials/page:static/chunks/app/testimonials/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./public/images/user-2.jpg": {
-      "*": {
-        "id": "(sc_client)/./public/images/user-2.jpg",
-        "name": "*",
-        "chunks": [
-          "app/testimonials/page:static/chunks/app/testimonials/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./public/images/user-2.jpg",
-        "name": "",
-        "chunks": [
-          "app/testimonials/page:static/chunks/app/testimonials/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/images/user-2.jpg",
-        "name": "default",
-        "chunks": [
-          "app/testimonials/page:static/chunks/app/testimonials/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./public/images/user-20.jpg": {
-      "*": {
-        "id": "(sc_client)/./public/images/user-20.jpg",
-        "name": "*",
-        "chunks": [
-          "app/testimonials/page:static/chunks/app/testimonials/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./public/images/user-20.jpg",
-        "name": "",
-        "chunks": [
-          "app/testimonials/page:static/chunks/app/testimonials/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/images/user-20.jpg",
-        "name": "default",
-        "chunks": [
-          "app/testimonials/page:static/chunks/app/testimonials/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./public/images/user-3.jpg": {
-      "*": {
-        "id": "(sc_client)/./public/images/user-3.jpg",
-        "name": "*",
-        "chunks": [
-          "app/testimonials/page:static/chunks/app/testimonials/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./public/images/user-3.jpg",
-        "name": "",
-        "chunks": [
-          "app/testimonials/page:static/chunks/app/testimonials/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/images/user-3.jpg",
-        "name": "default",
-        "chunks": [
-          "app/testimonials/page:static/chunks/app/testimonials/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./public/images/user-4.jpg": {
-      "*": {
-        "id": "(sc_client)/./public/images/user-4.jpg",
-        "name": "*",
-        "chunks": [
-          "app/testimonials/page:static/chunks/app/testimonials/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./public/images/user-4.jpg",
-        "name": "",
-        "chunks": [
-          "app/testimonials/page:static/chunks/app/testimonials/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/images/user-4.jpg",
-        "name": "default",
-        "chunks": [
-          "app/testimonials/page:static/chunks/app/testimonials/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./public/images/user-5.jpg": {
-      "*": {
-        "id": "(sc_client)/./public/images/user-5.jpg",
-        "name": "*",
-        "chunks": [
-          "app/testimonials/page:static/chunks/app/testimonials/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./public/images/user-5.jpg",
-        "name": "",
-        "chunks": [
-          "app/testimonials/page:static/chunks/app/testimonials/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/images/user-5.jpg",
-        "name": "default",
-        "chunks": [
-          "app/testimonials/page:static/chunks/app/testimonials/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./public/images/user-6.jpg": {
-      "*": {
-        "id": "(sc_client)/./public/images/user-6.jpg",
-        "name": "*",
-        "chunks": [
-          "app/testimonials/page:static/chunks/app/testimonials/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./public/images/user-6.jpg",
-        "name": "",
-        "chunks": [
-          "app/testimonials/page:static/chunks/app/testimonials/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/images/user-6.jpg",
-        "name": "default",
-        "chunks": [
-          "app/testimonials/page:static/chunks/app/testimonials/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./public/images/user-7.jpg": {
-      "*": {
-        "id": "(sc_client)/./public/images/user-7.jpg",
-        "name": "*",
-        "chunks": [
-          "app/testimonials/page:static/chunks/app/testimonials/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./public/images/user-7.jpg",
-        "name": "",
-        "chunks": [
-          "app/testimonials/page:static/chunks/app/testimonials/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/images/user-7.jpg",
-        "name": "default",
-        "chunks": [
-          "app/testimonials/page:static/chunks/app/testimonials/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./public/images/user-8.jpg": {
-      "*": {
-        "id": "(sc_client)/./public/images/user-8.jpg",
-        "name": "*",
-        "chunks": [
-          "app/testimonials/page:static/chunks/app/testimonials/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./public/images/user-8.jpg",
-        "name": "",
-        "chunks": [
-          "app/testimonials/page:static/chunks/app/testimonials/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/images/user-8.jpg",
-        "name": "default",
-        "chunks": [
-          "app/testimonials/page:static/chunks/app/testimonials/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./public/images/user-9.jpg": {
-      "*": {
-        "id": "(sc_client)/./public/images/user-9.jpg",
-        "name": "*",
-        "chunks": [
-          "app/testimonials/page:static/chunks/app/testimonials/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./public/images/user-9.jpg",
-        "name": "",
-        "chunks": [
-          "app/testimonials/page:static/chunks/app/testimonials/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/images/user-9.jpg",
-        "name": "default",
-        "chunks": [
-          "app/testimonials/page:static/chunks/app/testimonials/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./public/images/video-testimonial.jpg": {
-      "*": {
-        "id": "(sc_client)/./public/images/video-testimonial.jpg",
-        "name": "*",
-        "chunks": [
-          "app/testimonials/page:static/chunks/app/testimonials/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./public/images/video-testimonial.jpg",
-        "name": "",
-        "chunks": [
-          "app/testimonials/page:static/chunks/app/testimonials/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/images/video-testimonial.jpg",
-        "name": "default",
-        "chunks": [
-          "app/testimonials/page:static/chunks/app/testimonials/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./components/modal-video.tsx": {
-      "*": {
-        "id": "(sc_client)/./components/modal-video.tsx",
-        "name": "*",
-        "chunks": [
-          "app/testimonials/page:static/chunks/app/testimonials/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./components/modal-video.tsx",
-        "name": "",
-        "chunks": [
-          "app/testimonials/page:static/chunks/app/testimonials/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./components/modal-video.tsx",
-        "name": "default",
-        "chunks": [
-          "app/testimonials/page:static/chunks/app/testimonials/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./components/testimonials-carousel.tsx": {
-      "*": {
-        "id": "(sc_client)/./components/testimonials-carousel.tsx",
-        "name": "*",
-        "chunks": [
-          "app/testimonials/page:static/chunks/app/testimonials/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./components/testimonials-carousel.tsx",
-        "name": "",
-        "chunks": [
-          "app/testimonials/page:static/chunks/app/testimonials/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./components/testimonials-carousel.tsx",
-        "name": "default",
-        "chunks": [
-          "app/testimonials/page:static/chunks/app/testimonials/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./components/testimonials-circles.tsx": {
-      "*": {
-        "id": "(sc_client)/./components/testimonials-circles.tsx",
-        "name": "*",
-        "chunks": [
-          "app/testimonials/page:static/chunks/app/testimonials/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./components/testimonials-circles.tsx",
-        "name": "",
-        "chunks": [
-          "app/testimonials/page:static/chunks/app/testimonials/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./components/testimonials-circles.tsx",
-        "name": "default",
-        "chunks": [
-          "app/testimonials/page:static/chunks/app/testimonials/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./public/images/news-author-01.jpg": {
-      "*": {
-        "id": "(sc_client)/./public/images/news-author-01.jpg",
-        "name": "*",
-        "chunks": [
-          "app/help/page:static/chunks/app/help/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./public/images/news-author-01.jpg",
-        "name": "",
-        "chunks": [
-          "app/help/page:static/chunks/app/help/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/images/news-author-01.jpg",
-        "name": "default",
-        "chunks": [
-          "app/help/page:static/chunks/app/help/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./public/images/news-author-02.jpg": {
-      "*": {
-        "id": "(sc_client)/./public/images/news-author-02.jpg",
-        "name": "*",
-        "chunks": [
-          "app/help/page:static/chunks/app/help/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./public/images/news-author-02.jpg",
-        "name": "",
-        "chunks": [
-          "app/help/page:static/chunks/app/help/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/images/news-author-02.jpg",
-        "name": "default",
-        "chunks": [
-          "app/help/page:static/chunks/app/help/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./public/images/news-author-03.jpg": {
-      "*": {
-        "id": "(sc_client)/./public/images/news-author-03.jpg",
-        "name": "*",
-        "chunks": [
-          "app/blog/[slug]/page:static/chunks/app/blog/[slug]/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./public/images/news-author-03.jpg",
-        "name": "",
-        "chunks": [
-          "app/blog/[slug]/page:static/chunks/app/blog/[slug]/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/images/news-author-03.jpg",
-        "name": "default",
-        "chunks": [
-          "app/blog/[slug]/page:static/chunks/app/blog/[slug]/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./public/images/news-author-04.jpg": {
-      "*": {
-        "id": "(sc_client)/./public/images/news-author-04.jpg",
-        "name": "*",
-        "chunks": [
-          "app/blog/[slug]/page:static/chunks/app/blog/[slug]/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./public/images/news-author-04.jpg",
-        "name": "",
-        "chunks": [
-          "app/blog/[slug]/page:static/chunks/app/blog/[slug]/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/images/news-author-04.jpg",
-        "name": "default",
-        "chunks": [
-          "app/blog/[slug]/page:static/chunks/app/blog/[slug]/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./public/images/news-author-05.jpg": {
-      "*": {
-        "id": "(sc_client)/./public/images/news-author-05.jpg",
-        "name": "*",
-        "chunks": [
-          "app/help/page:static/chunks/app/help/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./public/images/news-author-05.jpg",
-        "name": "",
-        "chunks": [
-          "app/help/page:static/chunks/app/help/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/images/news-author-05.jpg",
-        "name": "default",
-        "chunks": [
-          "app/help/page:static/chunks/app/help/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./app/help/content.tsx": {
-      "*": {
-        "id": "(sc_client)/./app/help/content.tsx",
-        "name": "*",
-        "chunks": [
-          "app/help/page:static/chunks/app/help/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./app/help/content.tsx",
-        "name": "",
-        "chunks": [
-          "app/help/page:static/chunks/app/help/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./app/help/content.tsx",
-        "name": "default",
-        "chunks": [
-          "app/help/page:static/chunks/app/help/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./public/images/related-post-01.jpg": {
-      "*": {
-        "id": "(sc_client)/./public/images/related-post-01.jpg",
-        "name": "*",
-        "chunks": [
-          "app/blog/[slug]/page:static/chunks/app/blog/[slug]/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./public/images/related-post-01.jpg",
-        "name": "",
-        "chunks": [
-          "app/blog/[slug]/page:static/chunks/app/blog/[slug]/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/images/related-post-01.jpg",
-        "name": "default",
-        "chunks": [
-          "app/blog/[slug]/page:static/chunks/app/blog/[slug]/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./public/images/related-post-02.jpg": {
-      "*": {
-        "id": "(sc_client)/./public/images/related-post-02.jpg",
-        "name": "*",
-        "chunks": [
-          "app/blog/[slug]/page:static/chunks/app/blog/[slug]/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./public/images/related-post-02.jpg",
-        "name": "",
-        "chunks": [
-          "app/blog/[slug]/page:static/chunks/app/blog/[slug]/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/images/related-post-02.jpg",
-        "name": "default",
-        "chunks": [
-          "app/blog/[slug]/page:static/chunks/app/blog/[slug]/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./node_modules/next/dist/client/script.js": {
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/script.js",
-        "name": "*",
-        "chunks": [
-          "app/blog/[slug]/page:static/chunks/app/blog/[slug]/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./node_modules/next/dist/client/script.js",
-        "name": "",
-        "chunks": [
-          "app/blog/[slug]/page:static/chunks/app/blog/[slug]/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./node_modules/next/dist/client/script.js",
-        "name": "default",
-        "chunks": [
-          "app/blog/[slug]/page:static/chunks/app/blog/[slug]/page.js"
-        ],
-        "async": false
-      },
-      "handleClientScriptLoad": {
-        "id": "(sc_client)/./node_modules/next/dist/client/script.js",
-        "name": "handleClientScriptLoad",
-        "chunks": [
-          "app/blog/[slug]/page:static/chunks/app/blog/[slug]/page.js"
-        ],
-        "async": false
-      },
-      "initScriptLoader": {
-        "id": "(sc_client)/./node_modules/next/dist/client/script.js",
-        "name": "initScriptLoader",
-        "chunks": [
-          "app/blog/[slug]/page:static/chunks/app/blog/[slug]/page.js"
-        ],
-        "async": false
-      },
-      "mount": {
-        "id": "(sc_client)/./node_modules/next/dist/client/script.js",
-        "name": "mount",
-        "chunks": [
-          "app/blog/[slug]/page:static/chunks/app/blog/[slug]/page.js"
-        ],
-        "async": false
-      },
-      "nonce": {
-        "id": "(sc_client)/./node_modules/next/dist/client/script.js",
-        "name": "nonce",
-        "chunks": [
-          "app/blog/[slug]/page:static/chunks/app/blog/[slug]/page.js"
-        ],
-        "async": false
-      },
-      "dangerouslySetInnerHTML": {
-        "id": "(sc_client)/./node_modules/next/dist/client/script.js",
-        "name": "dangerouslySetInnerHTML",
-        "chunks": [
-          "app/blog/[slug]/page:static/chunks/app/blog/[slug]/page.js"
-        ],
-        "async": false
-      },
-      "__html": {
-        "id": "(sc_client)/./node_modules/next/dist/client/script.js",
-        "name": "__html",
-        "chunks": [
-          "app/blog/[slug]/page:static/chunks/app/blog/[slug]/page.js"
-        ],
-        "async": false
-      },
-      "as": {
-        "id": "(sc_client)/./node_modules/next/dist/client/script.js",
-        "name": "as",
-        "chunks": [
-          "app/blog/[slug]/page:static/chunks/app/blog/[slug]/page.js"
-        ],
-        "async": false
-      },
-      "integrity": {
-        "id": "(sc_client)/./node_modules/next/dist/client/script.js",
-        "name": "integrity",
-        "chunks": [
-          "app/blog/[slug]/page:static/chunks/app/blog/[slug]/page.js"
-        ],
-        "async": false
-      },
-      "value": {
-        "id": "(sc_client)/./node_modules/next/dist/client/script.js",
-        "name": "value",
-        "chunks": [
-          "app/blog/[slug]/page:static/chunks/app/blog/[slug]/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js": {
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
-        "name": "*",
-        "chunks": [
-          "app/blog/[slug]/page:static/chunks/app/blog/[slug]/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
-        "name": "",
-        "chunks": [
-          "app/blog/[slug]/page:static/chunks/app/blog/[slug]/page.js"
-        ],
-        "async": false
-      },
-      "suspense": {
-        "id": "(sc_client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
-        "name": "suspense",
-        "chunks": [
-          "app/blog/[slug]/page:static/chunks/app/blog/[slug]/page.js"
-        ],
-        "async": false
-      },
-      "NoSSR": {
-        "id": "(sc_client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
-        "name": "NoSSR",
-        "chunks": [
-          "app/blog/[slug]/page:static/chunks/app/blog/[slug]/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./public/images/about-grid-01.jpg": {
-      "*": {
-        "id": "(sc_client)/./public/images/about-grid-01.jpg",
-        "name": "*",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./public/images/about-grid-01.jpg",
-        "name": "",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/images/about-grid-01.jpg",
-        "name": "default",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./public/images/about-grid-02.jpg": {
-      "*": {
-        "id": "(sc_client)/./public/images/about-grid-02.jpg",
-        "name": "*",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./public/images/about-grid-02.jpg",
-        "name": "",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/images/about-grid-02.jpg",
-        "name": "default",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./public/images/about-grid-03.jpg": {
-      "*": {
-        "id": "(sc_client)/./public/images/about-grid-03.jpg",
-        "name": "*",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./public/images/about-grid-03.jpg",
-        "name": "",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/images/about-grid-03.jpg",
-        "name": "default",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./public/images/about-grid-04.jpg": {
-      "*": {
-        "id": "(sc_client)/./public/images/about-grid-04.jpg",
-        "name": "*",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./public/images/about-grid-04.jpg",
-        "name": "",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/images/about-grid-04.jpg",
-        "name": "default",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./public/images/about-grid-05.jpg": {
-      "*": {
-        "id": "(sc_client)/./public/images/about-grid-05.jpg",
-        "name": "*",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./public/images/about-grid-05.jpg",
-        "name": "",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/images/about-grid-05.jpg",
-        "name": "default",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./public/images/about-grid-06.jpg": {
-      "*": {
-        "id": "(sc_client)/./public/images/about-grid-06.jpg",
-        "name": "*",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./public/images/about-grid-06.jpg",
-        "name": "",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/images/about-grid-06.jpg",
-        "name": "default",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./public/images/about-hero.jpg": {
-      "*": {
-        "id": "(sc_client)/./public/images/about-hero.jpg",
-        "name": "*",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./public/images/about-hero.jpg",
-        "name": "",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/images/about-hero.jpg",
-        "name": "default",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./public/images/career-01.jpg": {
-      "*": {
-        "id": "(sc_client)/./public/images/career-01.jpg",
-        "name": "*",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./public/images/career-01.jpg",
-        "name": "",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/images/career-01.jpg",
-        "name": "default",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./public/images/career-02.jpg": {
-      "*": {
-        "id": "(sc_client)/./public/images/career-02.jpg",
-        "name": "*",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./public/images/career-02.jpg",
-        "name": "",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/images/career-02.jpg",
-        "name": "default",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./public/images/career-03.jpg": {
-      "*": {
-        "id": "(sc_client)/./public/images/career-03.jpg",
-        "name": "*",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./public/images/career-03.jpg",
-        "name": "",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/images/career-03.jpg",
-        "name": "default",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./public/images/career-04.jpg": {
-      "*": {
-        "id": "(sc_client)/./public/images/career-04.jpg",
-        "name": "*",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./public/images/career-04.jpg",
-        "name": "",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/images/career-04.jpg",
-        "name": "default",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./public/images/career-05.jpg": {
-      "*": {
-        "id": "(sc_client)/./public/images/career-05.jpg",
-        "name": "*",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./public/images/career-05.jpg",
-        "name": "",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/images/career-05.jpg",
-        "name": "default",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./public/images/career-06.jpg": {
-      "*": {
-        "id": "(sc_client)/./public/images/career-06.jpg",
-        "name": "*",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./public/images/career-06.jpg",
-        "name": "",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/images/career-06.jpg",
-        "name": "default",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./public/images/hero-bg-03.jpg": {
-      "*": {
-        "id": "(sc_client)/./public/images/hero-bg-03.jpg",
-        "name": "*",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./public/images/hero-bg-03.jpg",
-        "name": "",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/images/hero-bg-03.jpg",
-        "name": "default",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./public/images/team-member-01.jpg": {
-      "*": {
-        "id": "(sc_client)/./public/images/team-member-01.jpg",
-        "name": "*",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./public/images/team-member-01.jpg",
-        "name": "",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/images/team-member-01.jpg",
-        "name": "default",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./public/images/team-member-02.jpg": {
-      "*": {
-        "id": "(sc_client)/./public/images/team-member-02.jpg",
-        "name": "*",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./public/images/team-member-02.jpg",
-        "name": "",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/images/team-member-02.jpg",
-        "name": "default",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./public/images/team-member-03.jpg": {
-      "*": {
-        "id": "(sc_client)/./public/images/team-member-03.jpg",
-        "name": "*",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./public/images/team-member-03.jpg",
-        "name": "",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/images/team-member-03.jpg",
-        "name": "default",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./public/images/team-member-04.jpg": {
-      "*": {
-        "id": "(sc_client)/./public/images/team-member-04.jpg",
-        "name": "*",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./public/images/team-member-04.jpg",
-        "name": "",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/images/team-member-04.jpg",
-        "name": "default",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./public/images/team-member-05.jpg": {
-      "*": {
-        "id": "(sc_client)/./public/images/team-member-05.jpg",
-        "name": "*",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./public/images/team-member-05.jpg",
-        "name": "",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/images/team-member-05.jpg",
-        "name": "default",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./public/images/team-member-06.jpg": {
-      "*": {
-        "id": "(sc_client)/./public/images/team-member-06.jpg",
-        "name": "*",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./public/images/team-member-06.jpg",
-        "name": "",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/images/team-member-06.jpg",
-        "name": "default",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./public/images/team-member-07.jpg": {
-      "*": {
-        "id": "(sc_client)/./public/images/team-member-07.jpg",
-        "name": "*",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./public/images/team-member-07.jpg",
-        "name": "",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/images/team-member-07.jpg",
-        "name": "default",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./public/images/team-member-08.jpg": {
-      "*": {
-        "id": "(sc_client)/./public/images/team-member-08.jpg",
-        "name": "*",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./public/images/team-member-08.jpg",
-        "name": "",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/images/team-member-08.jpg",
-        "name": "default",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./public/images/team-member-09.jpg": {
-      "*": {
-        "id": "(sc_client)/./public/images/team-member-09.jpg",
-        "name": "*",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./public/images/team-member-09.jpg",
-        "name": "",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/images/team-member-09.jpg",
-        "name": "default",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./public/images/team-member-10.jpg": {
-      "*": {
-        "id": "(sc_client)/./public/images/team-member-10.jpg",
-        "name": "*",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./public/images/team-member-10.jpg",
-        "name": "",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/images/team-member-10.jpg",
-        "name": "default",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./components/timeline.tsx": {
-      "*": {
-        "id": "(sc_client)/./components/timeline.tsx",
-        "name": "*",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./components/timeline.tsx",
-        "name": "",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./components/timeline.tsx",
-        "name": "default",
-        "chunks": [
-          "app/about/page:static/chunks/app/about/page.js"
         ],
         "async": false
       }
@@ -4909,7 +3165,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/blog/[slug]/page:static/chunks/app/blog/[slug]/page.js"
+        "app/not-found:static/chunks/app/not-found.js"
       ],
       "async": false
     },
@@ -4917,7 +3173,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/blog/[slug]/page:static/chunks/app/blog/[slug]/page.js"
+        "app/not-found:static/chunks/app/not-found.js"
       ],
       "async": false
     },
@@ -4925,7 +3181,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "",
       "chunks": [
-        "app/blog/[slug]/page:static/chunks/app/blog/[slug]/page.js"
+        "app/not-found:static/chunks/app/not-found.js"
       ],
       "async": false
     },
@@ -4933,7 +3189,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "",
       "chunks": [
-        "app/blog/[slug]/page:static/chunks/app/blog/[slug]/page.js"
+        "app/not-found:static/chunks/app/not-found.js"
       ],
       "async": false
     },
@@ -4941,7 +3197,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "default",
       "chunks": [
-        "app/blog/[slug]/page:static/chunks/app/blog/[slug]/page.js"
+        "app/not-found:static/chunks/app/not-found.js"
       ],
       "async": false
     },
@@ -4949,7 +3205,367 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "default",
       "chunks": [
-        "app/blog/[slug]/page:static/chunks/app/blog/[slug]/page.js"
+        "app/not-found:static/chunks/app/not-found.js"
+      ],
+      "async": false
+    },
+    "/Users/gmogmz/Code/website_template/public/images/404.jpg": {
+      "id": "(app-client)/./public/images/404.jpg",
+      "name": "*",
+      "chunks": [
+        "app/not-found:static/chunks/app/not-found.js"
+      ],
+      "async": false
+    },
+    "/Users/gmogmz/Code/website_template/public/images/404.jpg#": {
+      "id": "(app-client)/./public/images/404.jpg",
+      "name": "",
+      "chunks": [
+        "app/not-found:static/chunks/app/not-found.js"
+      ],
+      "async": false
+    },
+    "/Users/gmogmz/Code/website_template/public/images/404.jpg#default": {
+      "id": "(app-client)/./public/images/404.jpg",
+      "name": "default",
+      "chunks": [
+        "app/not-found:static/chunks/app/not-found.js"
+      ],
+      "async": false
+    },
+    "/Users/gmogmz/Code/website_template/node_modules/next/dist/client/image.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/gmogmz/Code/website_template/node_modules/next/dist/esm/client/image.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/gmogmz/Code/website_template/node_modules/next/dist/client/image.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/gmogmz/Code/website_template/node_modules/next/dist/esm/client/image.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/gmogmz/Code/website_template/node_modules/next/dist/client/image.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "default",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/gmogmz/Code/website_template/node_modules/next/dist/esm/client/image.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "default",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/gmogmz/Code/website_template/node_modules/next/dist/shared/lib/head.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/gmogmz/Code/website_template/node_modules/next/dist/esm/shared/lib/head.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/gmogmz/Code/website_template/node_modules/next/dist/shared/lib/head.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/gmogmz/Code/website_template/node_modules/next/dist/esm/shared/lib/head.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/gmogmz/Code/website_template/node_modules/next/dist/shared/lib/head.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "default",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/gmogmz/Code/website_template/node_modules/next/dist/esm/shared/lib/head.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "default",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/gmogmz/Code/website_template/node_modules/next/dist/shared/lib/head.js#defaultHead": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "defaultHead",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/gmogmz/Code/website_template/node_modules/next/dist/esm/shared/lib/head.js#defaultHead": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "defaultHead",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/gmogmz/Code/website_template/node_modules/next/dist/shared/lib/head.js#charSet": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "charSet",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/gmogmz/Code/website_template/node_modules/next/dist/esm/shared/lib/head.js#charSet": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "charSet",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/gmogmz/Code/website_template/node_modules/next/dist/shared/lib/head.js#name": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "name",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/gmogmz/Code/website_template/node_modules/next/dist/esm/shared/lib/head.js#name": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "name",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/gmogmz/Code/website_template/node_modules/next/dist/shared/lib/head.js#content": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "content",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/gmogmz/Code/website_template/node_modules/next/dist/esm/shared/lib/head.js#content": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "content",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/gmogmz/Code/website_template/node_modules/next/dist/shared/lib/head.js#\"title\"": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "\"title\"",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/gmogmz/Code/website_template/node_modules/next/dist/esm/shared/lib/head.js#\"title\"": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "\"title\"",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/gmogmz/Code/website_template/node_modules/next/dist/shared/lib/head.js#\"base\"": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "\"base\"",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/gmogmz/Code/website_template/node_modules/next/dist/esm/shared/lib/head.js#\"base\"": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "\"base\"",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/gmogmz/Code/website_template/node_modules/next/dist/shared/lib/head.js#\"meta\"": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "\"meta\"",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/gmogmz/Code/website_template/node_modules/next/dist/esm/shared/lib/head.js#\"meta\"": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "\"meta\"",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/gmogmz/Code/website_template/node_modules/next/dist/shared/lib/head.js#TODO(prateekbh@)": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "TODO(prateekbh@)",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/gmogmz/Code/website_template/node_modules/next/dist/esm/shared/lib/head.js#TODO(prateekbh@)": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "TODO(prateekbh@)",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/gmogmz/Code/website_template/node_modules/next/dist/shared/lib/head.js#\"https": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "\"https",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/gmogmz/Code/website_template/node_modules/next/dist/esm/shared/lib/head.js#\"https": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "\"https",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/gmogmz/Code/website_template/node_modules/next/dist/shared/lib/head.js#here": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "here",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/gmogmz/Code/website_template/node_modules/next/dist/esm/shared/lib/head.js#here": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "here",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/gmogmz/Code/website_template/node_modules/next/dist/shared/lib/head.js#https": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "https",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/gmogmz/Code/website_template/node_modules/next/dist/esm/shared/lib/head.js#https": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "https",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/gmogmz/Code/website_template/node_modules/next/dist/shared/lib/head.js#reduceComponentsToState": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "reduceComponentsToState",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/gmogmz/Code/website_template/node_modules/next/dist/esm/shared/lib/head.js#reduceComponentsToState": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "reduceComponentsToState",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/gmogmz/Code/website_template/node_modules/next/dist/shared/lib/head.js#headManager": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "headManager",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/gmogmz/Code/website_template/node_modules/next/dist/esm/shared/lib/head.js#headManager": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "headManager",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/gmogmz/Code/website_template/node_modules/next/dist/shared/lib/head.js#inAmpMode": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "inAmpMode",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/gmogmz/Code/website_template/node_modules/next/dist/esm/shared/lib/head.js#inAmpMode": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "inAmpMode",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/gmogmz/Code/website_template/node_modules/next/dist/shared/lib/head.js#value": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "value",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/gmogmz/Code/website_template/node_modules/next/dist/esm/shared/lib/head.js#value": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "value",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -5197,2110 +3813,6 @@
       "name": "default",
       "chunks": [
         "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/node_modules/next/dist/client/image.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "*",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/node_modules/next/dist/esm/client/image.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "*",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/node_modules/next/dist/client/image.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/node_modules/next/dist/esm/client/image.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/node_modules/next/dist/client/image.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "default",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/node_modules/next/dist/esm/client/image.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "default",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/node_modules/next/dist/shared/lib/head.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "*",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/node_modules/next/dist/esm/shared/lib/head.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "*",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/node_modules/next/dist/shared/lib/head.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/node_modules/next/dist/esm/shared/lib/head.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/node_modules/next/dist/shared/lib/head.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "default",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/node_modules/next/dist/esm/shared/lib/head.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "default",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/node_modules/next/dist/shared/lib/head.js#defaultHead": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "defaultHead",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/node_modules/next/dist/esm/shared/lib/head.js#defaultHead": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "defaultHead",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/node_modules/next/dist/shared/lib/head.js#charSet": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "charSet",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/node_modules/next/dist/esm/shared/lib/head.js#charSet": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "charSet",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/node_modules/next/dist/shared/lib/head.js#name": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "name",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/node_modules/next/dist/esm/shared/lib/head.js#name": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "name",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/node_modules/next/dist/shared/lib/head.js#content": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "content",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/node_modules/next/dist/esm/shared/lib/head.js#content": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "content",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/node_modules/next/dist/shared/lib/head.js#\"title\"": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "\"title\"",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/node_modules/next/dist/esm/shared/lib/head.js#\"title\"": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "\"title\"",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/node_modules/next/dist/shared/lib/head.js#\"base\"": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "\"base\"",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/node_modules/next/dist/esm/shared/lib/head.js#\"base\"": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "\"base\"",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/node_modules/next/dist/shared/lib/head.js#\"meta\"": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "\"meta\"",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/node_modules/next/dist/esm/shared/lib/head.js#\"meta\"": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "\"meta\"",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/node_modules/next/dist/shared/lib/head.js#TODO(prateekbh@)": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "TODO(prateekbh@)",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/node_modules/next/dist/esm/shared/lib/head.js#TODO(prateekbh@)": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "TODO(prateekbh@)",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/node_modules/next/dist/shared/lib/head.js#\"https": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "\"https",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/node_modules/next/dist/esm/shared/lib/head.js#\"https": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "\"https",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/node_modules/next/dist/shared/lib/head.js#here": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "here",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/node_modules/next/dist/esm/shared/lib/head.js#here": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "here",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/node_modules/next/dist/shared/lib/head.js#https": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "https",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/node_modules/next/dist/esm/shared/lib/head.js#https": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "https",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/node_modules/next/dist/shared/lib/head.js#reduceComponentsToState": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "reduceComponentsToState",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/node_modules/next/dist/esm/shared/lib/head.js#reduceComponentsToState": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "reduceComponentsToState",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/node_modules/next/dist/shared/lib/head.js#headManager": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "headManager",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/node_modules/next/dist/esm/shared/lib/head.js#headManager": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "headManager",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/node_modules/next/dist/shared/lib/head.js#inAmpMode": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "inAmpMode",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/node_modules/next/dist/esm/shared/lib/head.js#inAmpMode": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "inAmpMode",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/node_modules/next/dist/shared/lib/head.js#value": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "value",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/node_modules/next/dist/esm/shared/lib/head.js#value": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "value",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/404.jpg": {
-      "id": "(app-client)/./public/images/404.jpg",
-      "name": "*",
-      "chunks": [
-        "app/not-found:static/chunks/app/not-found.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/404.jpg#": {
-      "id": "(app-client)/./public/images/404.jpg",
-      "name": "",
-      "chunks": [
-        "app/not-found:static/chunks/app/not-found.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/404.jpg#default": {
-      "id": "(app-client)/./public/images/404.jpg",
-      "name": "default",
-      "chunks": [
-        "app/not-found:static/chunks/app/not-found.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/related-post-03.jpg": {
-      "id": "(app-client)/./public/images/related-post-03.jpg",
-      "name": "*",
-      "chunks": [
-        "app/blog/page:static/chunks/app/blog/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/related-post-03.jpg#": {
-      "id": "(app-client)/./public/images/related-post-03.jpg",
-      "name": "",
-      "chunks": [
-        "app/blog/page:static/chunks/app/blog/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/related-post-03.jpg#default": {
-      "id": "(app-client)/./public/images/related-post-03.jpg",
-      "name": "default",
-      "chunks": [
-        "app/blog/page:static/chunks/app/blog/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/related-post-04.jpg": {
-      "id": "(app-client)/./public/images/related-post-04.jpg",
-      "name": "*",
-      "chunks": [
-        "app/blog/page:static/chunks/app/blog/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/related-post-04.jpg#": {
-      "id": "(app-client)/./public/images/related-post-04.jpg",
-      "name": "",
-      "chunks": [
-        "app/blog/page:static/chunks/app/blog/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/related-post-04.jpg#default": {
-      "id": "(app-client)/./public/images/related-post-04.jpg",
-      "name": "default",
-      "chunks": [
-        "app/blog/page:static/chunks/app/blog/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/related-post-05.jpg": {
-      "id": "(app-client)/./public/images/related-post-05.jpg",
-      "name": "*",
-      "chunks": [
-        "app/blog/page:static/chunks/app/blog/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/related-post-05.jpg#": {
-      "id": "(app-client)/./public/images/related-post-05.jpg",
-      "name": "",
-      "chunks": [
-        "app/blog/page:static/chunks/app/blog/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/related-post-05.jpg#default": {
-      "id": "(app-client)/./public/images/related-post-05.jpg",
-      "name": "default",
-      "chunks": [
-        "app/blog/page:static/chunks/app/blog/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/related-post-06.jpg": {
-      "id": "(app-client)/./public/images/related-post-06.jpg",
-      "name": "*",
-      "chunks": [
-        "app/blog/page:static/chunks/app/blog/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/related-post-06.jpg#": {
-      "id": "(app-client)/./public/images/related-post-06.jpg",
-      "name": "",
-      "chunks": [
-        "app/blog/page:static/chunks/app/blog/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/related-post-06.jpg#default": {
-      "id": "(app-client)/./public/images/related-post-06.jpg",
-      "name": "default",
-      "chunks": [
-        "app/blog/page:static/chunks/app/blog/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/hero-bg-02.jpg": {
-      "id": "(app-client)/./public/images/hero-bg-02.jpg",
-      "name": "*",
-      "chunks": [
-        "app/testimonials/page:static/chunks/app/testimonials/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/hero-bg-02.jpg#": {
-      "id": "(app-client)/./public/images/hero-bg-02.jpg",
-      "name": "",
-      "chunks": [
-        "app/testimonials/page:static/chunks/app/testimonials/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/hero-bg-02.jpg#default": {
-      "id": "(app-client)/./public/images/hero-bg-02.jpg",
-      "name": "default",
-      "chunks": [
-        "app/testimonials/page:static/chunks/app/testimonials/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/user-1.jpg": {
-      "id": "(app-client)/./public/images/user-1.jpg",
-      "name": "*",
-      "chunks": [
-        "app/testimonials/page:static/chunks/app/testimonials/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/user-1.jpg#": {
-      "id": "(app-client)/./public/images/user-1.jpg",
-      "name": "",
-      "chunks": [
-        "app/testimonials/page:static/chunks/app/testimonials/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/user-1.jpg#default": {
-      "id": "(app-client)/./public/images/user-1.jpg",
-      "name": "default",
-      "chunks": [
-        "app/testimonials/page:static/chunks/app/testimonials/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/user-10.jpg": {
-      "id": "(app-client)/./public/images/user-10.jpg",
-      "name": "*",
-      "chunks": [
-        "app/testimonials/page:static/chunks/app/testimonials/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/user-10.jpg#": {
-      "id": "(app-client)/./public/images/user-10.jpg",
-      "name": "",
-      "chunks": [
-        "app/testimonials/page:static/chunks/app/testimonials/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/user-10.jpg#default": {
-      "id": "(app-client)/./public/images/user-10.jpg",
-      "name": "default",
-      "chunks": [
-        "app/testimonials/page:static/chunks/app/testimonials/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/user-11.jpg": {
-      "id": "(app-client)/./public/images/user-11.jpg",
-      "name": "*",
-      "chunks": [
-        "app/testimonials/page:static/chunks/app/testimonials/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/user-11.jpg#": {
-      "id": "(app-client)/./public/images/user-11.jpg",
-      "name": "",
-      "chunks": [
-        "app/testimonials/page:static/chunks/app/testimonials/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/user-11.jpg#default": {
-      "id": "(app-client)/./public/images/user-11.jpg",
-      "name": "default",
-      "chunks": [
-        "app/testimonials/page:static/chunks/app/testimonials/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/user-12.jpg": {
-      "id": "(app-client)/./public/images/user-12.jpg",
-      "name": "*",
-      "chunks": [
-        "app/testimonials/page:static/chunks/app/testimonials/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/user-12.jpg#": {
-      "id": "(app-client)/./public/images/user-12.jpg",
-      "name": "",
-      "chunks": [
-        "app/testimonials/page:static/chunks/app/testimonials/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/user-12.jpg#default": {
-      "id": "(app-client)/./public/images/user-12.jpg",
-      "name": "default",
-      "chunks": [
-        "app/testimonials/page:static/chunks/app/testimonials/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/user-13.jpg": {
-      "id": "(app-client)/./public/images/user-13.jpg",
-      "name": "*",
-      "chunks": [
-        "app/testimonials/page:static/chunks/app/testimonials/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/user-13.jpg#": {
-      "id": "(app-client)/./public/images/user-13.jpg",
-      "name": "",
-      "chunks": [
-        "app/testimonials/page:static/chunks/app/testimonials/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/user-13.jpg#default": {
-      "id": "(app-client)/./public/images/user-13.jpg",
-      "name": "default",
-      "chunks": [
-        "app/testimonials/page:static/chunks/app/testimonials/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/user-14.jpg": {
-      "id": "(app-client)/./public/images/user-14.jpg",
-      "name": "*",
-      "chunks": [
-        "app/testimonials/page:static/chunks/app/testimonials/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/user-14.jpg#": {
-      "id": "(app-client)/./public/images/user-14.jpg",
-      "name": "",
-      "chunks": [
-        "app/testimonials/page:static/chunks/app/testimonials/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/user-14.jpg#default": {
-      "id": "(app-client)/./public/images/user-14.jpg",
-      "name": "default",
-      "chunks": [
-        "app/testimonials/page:static/chunks/app/testimonials/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/user-15.jpg": {
-      "id": "(app-client)/./public/images/user-15.jpg",
-      "name": "*",
-      "chunks": [
-        "app/testimonials/page:static/chunks/app/testimonials/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/user-15.jpg#": {
-      "id": "(app-client)/./public/images/user-15.jpg",
-      "name": "",
-      "chunks": [
-        "app/testimonials/page:static/chunks/app/testimonials/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/user-15.jpg#default": {
-      "id": "(app-client)/./public/images/user-15.jpg",
-      "name": "default",
-      "chunks": [
-        "app/testimonials/page:static/chunks/app/testimonials/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/user-16.jpg": {
-      "id": "(app-client)/./public/images/user-16.jpg",
-      "name": "*",
-      "chunks": [
-        "app/testimonials/page:static/chunks/app/testimonials/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/user-16.jpg#": {
-      "id": "(app-client)/./public/images/user-16.jpg",
-      "name": "",
-      "chunks": [
-        "app/testimonials/page:static/chunks/app/testimonials/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/user-16.jpg#default": {
-      "id": "(app-client)/./public/images/user-16.jpg",
-      "name": "default",
-      "chunks": [
-        "app/testimonials/page:static/chunks/app/testimonials/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/user-17.jpg": {
-      "id": "(app-client)/./public/images/user-17.jpg",
-      "name": "*",
-      "chunks": [
-        "app/testimonials/page:static/chunks/app/testimonials/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/user-17.jpg#": {
-      "id": "(app-client)/./public/images/user-17.jpg",
-      "name": "",
-      "chunks": [
-        "app/testimonials/page:static/chunks/app/testimonials/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/user-17.jpg#default": {
-      "id": "(app-client)/./public/images/user-17.jpg",
-      "name": "default",
-      "chunks": [
-        "app/testimonials/page:static/chunks/app/testimonials/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/user-18.jpg": {
-      "id": "(app-client)/./public/images/user-18.jpg",
-      "name": "*",
-      "chunks": [
-        "app/testimonials/page:static/chunks/app/testimonials/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/user-18.jpg#": {
-      "id": "(app-client)/./public/images/user-18.jpg",
-      "name": "",
-      "chunks": [
-        "app/testimonials/page:static/chunks/app/testimonials/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/user-18.jpg#default": {
-      "id": "(app-client)/./public/images/user-18.jpg",
-      "name": "default",
-      "chunks": [
-        "app/testimonials/page:static/chunks/app/testimonials/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/user-19.jpg": {
-      "id": "(app-client)/./public/images/user-19.jpg",
-      "name": "*",
-      "chunks": [
-        "app/testimonials/page:static/chunks/app/testimonials/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/user-19.jpg#": {
-      "id": "(app-client)/./public/images/user-19.jpg",
-      "name": "",
-      "chunks": [
-        "app/testimonials/page:static/chunks/app/testimonials/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/user-19.jpg#default": {
-      "id": "(app-client)/./public/images/user-19.jpg",
-      "name": "default",
-      "chunks": [
-        "app/testimonials/page:static/chunks/app/testimonials/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/user-2.jpg": {
-      "id": "(app-client)/./public/images/user-2.jpg",
-      "name": "*",
-      "chunks": [
-        "app/testimonials/page:static/chunks/app/testimonials/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/user-2.jpg#": {
-      "id": "(app-client)/./public/images/user-2.jpg",
-      "name": "",
-      "chunks": [
-        "app/testimonials/page:static/chunks/app/testimonials/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/user-2.jpg#default": {
-      "id": "(app-client)/./public/images/user-2.jpg",
-      "name": "default",
-      "chunks": [
-        "app/testimonials/page:static/chunks/app/testimonials/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/user-20.jpg": {
-      "id": "(app-client)/./public/images/user-20.jpg",
-      "name": "*",
-      "chunks": [
-        "app/testimonials/page:static/chunks/app/testimonials/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/user-20.jpg#": {
-      "id": "(app-client)/./public/images/user-20.jpg",
-      "name": "",
-      "chunks": [
-        "app/testimonials/page:static/chunks/app/testimonials/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/user-20.jpg#default": {
-      "id": "(app-client)/./public/images/user-20.jpg",
-      "name": "default",
-      "chunks": [
-        "app/testimonials/page:static/chunks/app/testimonials/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/user-3.jpg": {
-      "id": "(app-client)/./public/images/user-3.jpg",
-      "name": "*",
-      "chunks": [
-        "app/testimonials/page:static/chunks/app/testimonials/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/user-3.jpg#": {
-      "id": "(app-client)/./public/images/user-3.jpg",
-      "name": "",
-      "chunks": [
-        "app/testimonials/page:static/chunks/app/testimonials/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/user-3.jpg#default": {
-      "id": "(app-client)/./public/images/user-3.jpg",
-      "name": "default",
-      "chunks": [
-        "app/testimonials/page:static/chunks/app/testimonials/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/user-4.jpg": {
-      "id": "(app-client)/./public/images/user-4.jpg",
-      "name": "*",
-      "chunks": [
-        "app/testimonials/page:static/chunks/app/testimonials/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/user-4.jpg#": {
-      "id": "(app-client)/./public/images/user-4.jpg",
-      "name": "",
-      "chunks": [
-        "app/testimonials/page:static/chunks/app/testimonials/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/user-4.jpg#default": {
-      "id": "(app-client)/./public/images/user-4.jpg",
-      "name": "default",
-      "chunks": [
-        "app/testimonials/page:static/chunks/app/testimonials/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/user-5.jpg": {
-      "id": "(app-client)/./public/images/user-5.jpg",
-      "name": "*",
-      "chunks": [
-        "app/testimonials/page:static/chunks/app/testimonials/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/user-5.jpg#": {
-      "id": "(app-client)/./public/images/user-5.jpg",
-      "name": "",
-      "chunks": [
-        "app/testimonials/page:static/chunks/app/testimonials/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/user-5.jpg#default": {
-      "id": "(app-client)/./public/images/user-5.jpg",
-      "name": "default",
-      "chunks": [
-        "app/testimonials/page:static/chunks/app/testimonials/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/user-6.jpg": {
-      "id": "(app-client)/./public/images/user-6.jpg",
-      "name": "*",
-      "chunks": [
-        "app/testimonials/page:static/chunks/app/testimonials/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/user-6.jpg#": {
-      "id": "(app-client)/./public/images/user-6.jpg",
-      "name": "",
-      "chunks": [
-        "app/testimonials/page:static/chunks/app/testimonials/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/user-6.jpg#default": {
-      "id": "(app-client)/./public/images/user-6.jpg",
-      "name": "default",
-      "chunks": [
-        "app/testimonials/page:static/chunks/app/testimonials/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/user-7.jpg": {
-      "id": "(app-client)/./public/images/user-7.jpg",
-      "name": "*",
-      "chunks": [
-        "app/testimonials/page:static/chunks/app/testimonials/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/user-7.jpg#": {
-      "id": "(app-client)/./public/images/user-7.jpg",
-      "name": "",
-      "chunks": [
-        "app/testimonials/page:static/chunks/app/testimonials/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/user-7.jpg#default": {
-      "id": "(app-client)/./public/images/user-7.jpg",
-      "name": "default",
-      "chunks": [
-        "app/testimonials/page:static/chunks/app/testimonials/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/user-8.jpg": {
-      "id": "(app-client)/./public/images/user-8.jpg",
-      "name": "*",
-      "chunks": [
-        "app/testimonials/page:static/chunks/app/testimonials/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/user-8.jpg#": {
-      "id": "(app-client)/./public/images/user-8.jpg",
-      "name": "",
-      "chunks": [
-        "app/testimonials/page:static/chunks/app/testimonials/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/user-8.jpg#default": {
-      "id": "(app-client)/./public/images/user-8.jpg",
-      "name": "default",
-      "chunks": [
-        "app/testimonials/page:static/chunks/app/testimonials/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/user-9.jpg": {
-      "id": "(app-client)/./public/images/user-9.jpg",
-      "name": "*",
-      "chunks": [
-        "app/testimonials/page:static/chunks/app/testimonials/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/user-9.jpg#": {
-      "id": "(app-client)/./public/images/user-9.jpg",
-      "name": "",
-      "chunks": [
-        "app/testimonials/page:static/chunks/app/testimonials/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/user-9.jpg#default": {
-      "id": "(app-client)/./public/images/user-9.jpg",
-      "name": "default",
-      "chunks": [
-        "app/testimonials/page:static/chunks/app/testimonials/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/video-testimonial.jpg": {
-      "id": "(app-client)/./public/images/video-testimonial.jpg",
-      "name": "*",
-      "chunks": [
-        "app/testimonials/page:static/chunks/app/testimonials/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/video-testimonial.jpg#": {
-      "id": "(app-client)/./public/images/video-testimonial.jpg",
-      "name": "",
-      "chunks": [
-        "app/testimonials/page:static/chunks/app/testimonials/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/video-testimonial.jpg#default": {
-      "id": "(app-client)/./public/images/video-testimonial.jpg",
-      "name": "default",
-      "chunks": [
-        "app/testimonials/page:static/chunks/app/testimonials/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/components/modal-video.tsx": {
-      "id": "(app-client)/./components/modal-video.tsx",
-      "name": "*",
-      "chunks": [
-        "app/testimonials/page:static/chunks/app/testimonials/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/components/modal-video.tsx#": {
-      "id": "(app-client)/./components/modal-video.tsx",
-      "name": "",
-      "chunks": [
-        "app/testimonials/page:static/chunks/app/testimonials/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/components/modal-video.tsx#default": {
-      "id": "(app-client)/./components/modal-video.tsx",
-      "name": "default",
-      "chunks": [
-        "app/testimonials/page:static/chunks/app/testimonials/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/components/testimonials-carousel.tsx": {
-      "id": "(app-client)/./components/testimonials-carousel.tsx",
-      "name": "*",
-      "chunks": [
-        "app/testimonials/page:static/chunks/app/testimonials/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/components/testimonials-carousel.tsx#": {
-      "id": "(app-client)/./components/testimonials-carousel.tsx",
-      "name": "",
-      "chunks": [
-        "app/testimonials/page:static/chunks/app/testimonials/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/components/testimonials-carousel.tsx#default": {
-      "id": "(app-client)/./components/testimonials-carousel.tsx",
-      "name": "default",
-      "chunks": [
-        "app/testimonials/page:static/chunks/app/testimonials/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/components/testimonials-circles.tsx": {
-      "id": "(app-client)/./components/testimonials-circles.tsx",
-      "name": "*",
-      "chunks": [
-        "app/testimonials/page:static/chunks/app/testimonials/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/components/testimonials-circles.tsx#": {
-      "id": "(app-client)/./components/testimonials-circles.tsx",
-      "name": "",
-      "chunks": [
-        "app/testimonials/page:static/chunks/app/testimonials/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/components/testimonials-circles.tsx#default": {
-      "id": "(app-client)/./components/testimonials-circles.tsx",
-      "name": "default",
-      "chunks": [
-        "app/testimonials/page:static/chunks/app/testimonials/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/news-author-01.jpg": {
-      "id": "(app-client)/./public/images/news-author-01.jpg",
-      "name": "*",
-      "chunks": [
-        "app/help/page:static/chunks/app/help/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/news-author-01.jpg#": {
-      "id": "(app-client)/./public/images/news-author-01.jpg",
-      "name": "",
-      "chunks": [
-        "app/help/page:static/chunks/app/help/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/news-author-01.jpg#default": {
-      "id": "(app-client)/./public/images/news-author-01.jpg",
-      "name": "default",
-      "chunks": [
-        "app/help/page:static/chunks/app/help/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/news-author-02.jpg": {
-      "id": "(app-client)/./public/images/news-author-02.jpg",
-      "name": "*",
-      "chunks": [
-        "app/help/page:static/chunks/app/help/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/news-author-02.jpg#": {
-      "id": "(app-client)/./public/images/news-author-02.jpg",
-      "name": "",
-      "chunks": [
-        "app/help/page:static/chunks/app/help/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/news-author-02.jpg#default": {
-      "id": "(app-client)/./public/images/news-author-02.jpg",
-      "name": "default",
-      "chunks": [
-        "app/help/page:static/chunks/app/help/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/news-author-03.jpg": {
-      "id": "(app-client)/./public/images/news-author-03.jpg",
-      "name": "*",
-      "chunks": [
-        "app/blog/[slug]/page:static/chunks/app/blog/[slug]/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/news-author-03.jpg#": {
-      "id": "(app-client)/./public/images/news-author-03.jpg",
-      "name": "",
-      "chunks": [
-        "app/blog/[slug]/page:static/chunks/app/blog/[slug]/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/news-author-03.jpg#default": {
-      "id": "(app-client)/./public/images/news-author-03.jpg",
-      "name": "default",
-      "chunks": [
-        "app/blog/[slug]/page:static/chunks/app/blog/[slug]/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/news-author-04.jpg": {
-      "id": "(app-client)/./public/images/news-author-04.jpg",
-      "name": "*",
-      "chunks": [
-        "app/blog/[slug]/page:static/chunks/app/blog/[slug]/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/news-author-04.jpg#": {
-      "id": "(app-client)/./public/images/news-author-04.jpg",
-      "name": "",
-      "chunks": [
-        "app/blog/[slug]/page:static/chunks/app/blog/[slug]/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/news-author-04.jpg#default": {
-      "id": "(app-client)/./public/images/news-author-04.jpg",
-      "name": "default",
-      "chunks": [
-        "app/blog/[slug]/page:static/chunks/app/blog/[slug]/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/news-author-05.jpg": {
-      "id": "(app-client)/./public/images/news-author-05.jpg",
-      "name": "*",
-      "chunks": [
-        "app/help/page:static/chunks/app/help/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/news-author-05.jpg#": {
-      "id": "(app-client)/./public/images/news-author-05.jpg",
-      "name": "",
-      "chunks": [
-        "app/help/page:static/chunks/app/help/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/news-author-05.jpg#default": {
-      "id": "(app-client)/./public/images/news-author-05.jpg",
-      "name": "default",
-      "chunks": [
-        "app/help/page:static/chunks/app/help/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/app/help/content.tsx": {
-      "id": "(app-client)/./app/help/content.tsx",
-      "name": "*",
-      "chunks": [
-        "app/help/page:static/chunks/app/help/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/app/help/content.tsx#": {
-      "id": "(app-client)/./app/help/content.tsx",
-      "name": "",
-      "chunks": [
-        "app/help/page:static/chunks/app/help/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/app/help/content.tsx#default": {
-      "id": "(app-client)/./app/help/content.tsx",
-      "name": "default",
-      "chunks": [
-        "app/help/page:static/chunks/app/help/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/related-post-01.jpg": {
-      "id": "(app-client)/./public/images/related-post-01.jpg",
-      "name": "*",
-      "chunks": [
-        "app/blog/[slug]/page:static/chunks/app/blog/[slug]/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/related-post-01.jpg#": {
-      "id": "(app-client)/./public/images/related-post-01.jpg",
-      "name": "",
-      "chunks": [
-        "app/blog/[slug]/page:static/chunks/app/blog/[slug]/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/related-post-01.jpg#default": {
-      "id": "(app-client)/./public/images/related-post-01.jpg",
-      "name": "default",
-      "chunks": [
-        "app/blog/[slug]/page:static/chunks/app/blog/[slug]/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/related-post-02.jpg": {
-      "id": "(app-client)/./public/images/related-post-02.jpg",
-      "name": "*",
-      "chunks": [
-        "app/blog/[slug]/page:static/chunks/app/blog/[slug]/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/related-post-02.jpg#": {
-      "id": "(app-client)/./public/images/related-post-02.jpg",
-      "name": "",
-      "chunks": [
-        "app/blog/[slug]/page:static/chunks/app/blog/[slug]/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/related-post-02.jpg#default": {
-      "id": "(app-client)/./public/images/related-post-02.jpg",
-      "name": "default",
-      "chunks": [
-        "app/blog/[slug]/page:static/chunks/app/blog/[slug]/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/node_modules/next/dist/client/script.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/script.js",
-      "name": "*",
-      "chunks": [
-        "app/blog/[slug]/page:static/chunks/app/blog/[slug]/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/node_modules/next/dist/esm/client/script.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/script.js",
-      "name": "*",
-      "chunks": [
-        "app/blog/[slug]/page:static/chunks/app/blog/[slug]/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/node_modules/next/dist/client/script.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/script.js",
-      "name": "",
-      "chunks": [
-        "app/blog/[slug]/page:static/chunks/app/blog/[slug]/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/node_modules/next/dist/esm/client/script.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/script.js",
-      "name": "",
-      "chunks": [
-        "app/blog/[slug]/page:static/chunks/app/blog/[slug]/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/node_modules/next/dist/client/script.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/script.js",
-      "name": "default",
-      "chunks": [
-        "app/blog/[slug]/page:static/chunks/app/blog/[slug]/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/node_modules/next/dist/esm/client/script.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/script.js",
-      "name": "default",
-      "chunks": [
-        "app/blog/[slug]/page:static/chunks/app/blog/[slug]/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/node_modules/next/dist/client/script.js#handleClientScriptLoad": {
-      "id": "(app-client)/./node_modules/next/dist/client/script.js",
-      "name": "handleClientScriptLoad",
-      "chunks": [
-        "app/blog/[slug]/page:static/chunks/app/blog/[slug]/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/node_modules/next/dist/esm/client/script.js#handleClientScriptLoad": {
-      "id": "(app-client)/./node_modules/next/dist/client/script.js",
-      "name": "handleClientScriptLoad",
-      "chunks": [
-        "app/blog/[slug]/page:static/chunks/app/blog/[slug]/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/node_modules/next/dist/client/script.js#initScriptLoader": {
-      "id": "(app-client)/./node_modules/next/dist/client/script.js",
-      "name": "initScriptLoader",
-      "chunks": [
-        "app/blog/[slug]/page:static/chunks/app/blog/[slug]/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/node_modules/next/dist/esm/client/script.js#initScriptLoader": {
-      "id": "(app-client)/./node_modules/next/dist/client/script.js",
-      "name": "initScriptLoader",
-      "chunks": [
-        "app/blog/[slug]/page:static/chunks/app/blog/[slug]/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/node_modules/next/dist/client/script.js#mount": {
-      "id": "(app-client)/./node_modules/next/dist/client/script.js",
-      "name": "mount",
-      "chunks": [
-        "app/blog/[slug]/page:static/chunks/app/blog/[slug]/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/node_modules/next/dist/esm/client/script.js#mount": {
-      "id": "(app-client)/./node_modules/next/dist/client/script.js",
-      "name": "mount",
-      "chunks": [
-        "app/blog/[slug]/page:static/chunks/app/blog/[slug]/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/node_modules/next/dist/client/script.js#nonce": {
-      "id": "(app-client)/./node_modules/next/dist/client/script.js",
-      "name": "nonce",
-      "chunks": [
-        "app/blog/[slug]/page:static/chunks/app/blog/[slug]/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/node_modules/next/dist/esm/client/script.js#nonce": {
-      "id": "(app-client)/./node_modules/next/dist/client/script.js",
-      "name": "nonce",
-      "chunks": [
-        "app/blog/[slug]/page:static/chunks/app/blog/[slug]/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/node_modules/next/dist/client/script.js#dangerouslySetInnerHTML": {
-      "id": "(app-client)/./node_modules/next/dist/client/script.js",
-      "name": "dangerouslySetInnerHTML",
-      "chunks": [
-        "app/blog/[slug]/page:static/chunks/app/blog/[slug]/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/node_modules/next/dist/esm/client/script.js#dangerouslySetInnerHTML": {
-      "id": "(app-client)/./node_modules/next/dist/client/script.js",
-      "name": "dangerouslySetInnerHTML",
-      "chunks": [
-        "app/blog/[slug]/page:static/chunks/app/blog/[slug]/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/node_modules/next/dist/client/script.js#__html": {
-      "id": "(app-client)/./node_modules/next/dist/client/script.js",
-      "name": "__html",
-      "chunks": [
-        "app/blog/[slug]/page:static/chunks/app/blog/[slug]/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/node_modules/next/dist/esm/client/script.js#__html": {
-      "id": "(app-client)/./node_modules/next/dist/client/script.js",
-      "name": "__html",
-      "chunks": [
-        "app/blog/[slug]/page:static/chunks/app/blog/[slug]/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/node_modules/next/dist/client/script.js#as": {
-      "id": "(app-client)/./node_modules/next/dist/client/script.js",
-      "name": "as",
-      "chunks": [
-        "app/blog/[slug]/page:static/chunks/app/blog/[slug]/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/node_modules/next/dist/esm/client/script.js#as": {
-      "id": "(app-client)/./node_modules/next/dist/client/script.js",
-      "name": "as",
-      "chunks": [
-        "app/blog/[slug]/page:static/chunks/app/blog/[slug]/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/node_modules/next/dist/client/script.js#integrity": {
-      "id": "(app-client)/./node_modules/next/dist/client/script.js",
-      "name": "integrity",
-      "chunks": [
-        "app/blog/[slug]/page:static/chunks/app/blog/[slug]/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/node_modules/next/dist/esm/client/script.js#integrity": {
-      "id": "(app-client)/./node_modules/next/dist/client/script.js",
-      "name": "integrity",
-      "chunks": [
-        "app/blog/[slug]/page:static/chunks/app/blog/[slug]/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/node_modules/next/dist/client/script.js#value": {
-      "id": "(app-client)/./node_modules/next/dist/client/script.js",
-      "name": "value",
-      "chunks": [
-        "app/blog/[slug]/page:static/chunks/app/blog/[slug]/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/node_modules/next/dist/esm/client/script.js#value": {
-      "id": "(app-client)/./node_modules/next/dist/client/script.js",
-      "name": "value",
-      "chunks": [
-        "app/blog/[slug]/page:static/chunks/app/blog/[slug]/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
-      "name": "*",
-      "chunks": [
-        "app/blog/[slug]/page:static/chunks/app/blog/[slug]/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/node_modules/next/dist/esm/shared/lib/lazy-dynamic/dynamic-no-ssr.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
-      "name": "*",
-      "chunks": [
-        "app/blog/[slug]/page:static/chunks/app/blog/[slug]/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
-      "name": "",
-      "chunks": [
-        "app/blog/[slug]/page:static/chunks/app/blog/[slug]/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/node_modules/next/dist/esm/shared/lib/lazy-dynamic/dynamic-no-ssr.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
-      "name": "",
-      "chunks": [
-        "app/blog/[slug]/page:static/chunks/app/blog/[slug]/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js#suspense": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
-      "name": "suspense",
-      "chunks": [
-        "app/blog/[slug]/page:static/chunks/app/blog/[slug]/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/node_modules/next/dist/esm/shared/lib/lazy-dynamic/dynamic-no-ssr.js#suspense": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
-      "name": "suspense",
-      "chunks": [
-        "app/blog/[slug]/page:static/chunks/app/blog/[slug]/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js#NoSSR": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
-      "name": "NoSSR",
-      "chunks": [
-        "app/blog/[slug]/page:static/chunks/app/blog/[slug]/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/node_modules/next/dist/esm/shared/lib/lazy-dynamic/dynamic-no-ssr.js#NoSSR": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
-      "name": "NoSSR",
-      "chunks": [
-        "app/blog/[slug]/page:static/chunks/app/blog/[slug]/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/about-grid-01.jpg": {
-      "id": "(app-client)/./public/images/about-grid-01.jpg",
-      "name": "*",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/about-grid-01.jpg#": {
-      "id": "(app-client)/./public/images/about-grid-01.jpg",
-      "name": "",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/about-grid-01.jpg#default": {
-      "id": "(app-client)/./public/images/about-grid-01.jpg",
-      "name": "default",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/about-grid-02.jpg": {
-      "id": "(app-client)/./public/images/about-grid-02.jpg",
-      "name": "*",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/about-grid-02.jpg#": {
-      "id": "(app-client)/./public/images/about-grid-02.jpg",
-      "name": "",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/about-grid-02.jpg#default": {
-      "id": "(app-client)/./public/images/about-grid-02.jpg",
-      "name": "default",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/about-grid-03.jpg": {
-      "id": "(app-client)/./public/images/about-grid-03.jpg",
-      "name": "*",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/about-grid-03.jpg#": {
-      "id": "(app-client)/./public/images/about-grid-03.jpg",
-      "name": "",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/about-grid-03.jpg#default": {
-      "id": "(app-client)/./public/images/about-grid-03.jpg",
-      "name": "default",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/about-grid-04.jpg": {
-      "id": "(app-client)/./public/images/about-grid-04.jpg",
-      "name": "*",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/about-grid-04.jpg#": {
-      "id": "(app-client)/./public/images/about-grid-04.jpg",
-      "name": "",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/about-grid-04.jpg#default": {
-      "id": "(app-client)/./public/images/about-grid-04.jpg",
-      "name": "default",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/about-grid-05.jpg": {
-      "id": "(app-client)/./public/images/about-grid-05.jpg",
-      "name": "*",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/about-grid-05.jpg#": {
-      "id": "(app-client)/./public/images/about-grid-05.jpg",
-      "name": "",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/about-grid-05.jpg#default": {
-      "id": "(app-client)/./public/images/about-grid-05.jpg",
-      "name": "default",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/about-grid-06.jpg": {
-      "id": "(app-client)/./public/images/about-grid-06.jpg",
-      "name": "*",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/about-grid-06.jpg#": {
-      "id": "(app-client)/./public/images/about-grid-06.jpg",
-      "name": "",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/about-grid-06.jpg#default": {
-      "id": "(app-client)/./public/images/about-grid-06.jpg",
-      "name": "default",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/about-hero.jpg": {
-      "id": "(app-client)/./public/images/about-hero.jpg",
-      "name": "*",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/about-hero.jpg#": {
-      "id": "(app-client)/./public/images/about-hero.jpg",
-      "name": "",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/about-hero.jpg#default": {
-      "id": "(app-client)/./public/images/about-hero.jpg",
-      "name": "default",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/career-01.jpg": {
-      "id": "(app-client)/./public/images/career-01.jpg",
-      "name": "*",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/career-01.jpg#": {
-      "id": "(app-client)/./public/images/career-01.jpg",
-      "name": "",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/career-01.jpg#default": {
-      "id": "(app-client)/./public/images/career-01.jpg",
-      "name": "default",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/career-02.jpg": {
-      "id": "(app-client)/./public/images/career-02.jpg",
-      "name": "*",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/career-02.jpg#": {
-      "id": "(app-client)/./public/images/career-02.jpg",
-      "name": "",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/career-02.jpg#default": {
-      "id": "(app-client)/./public/images/career-02.jpg",
-      "name": "default",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/career-03.jpg": {
-      "id": "(app-client)/./public/images/career-03.jpg",
-      "name": "*",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/career-03.jpg#": {
-      "id": "(app-client)/./public/images/career-03.jpg",
-      "name": "",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/career-03.jpg#default": {
-      "id": "(app-client)/./public/images/career-03.jpg",
-      "name": "default",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/career-04.jpg": {
-      "id": "(app-client)/./public/images/career-04.jpg",
-      "name": "*",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/career-04.jpg#": {
-      "id": "(app-client)/./public/images/career-04.jpg",
-      "name": "",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/career-04.jpg#default": {
-      "id": "(app-client)/./public/images/career-04.jpg",
-      "name": "default",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/career-05.jpg": {
-      "id": "(app-client)/./public/images/career-05.jpg",
-      "name": "*",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/career-05.jpg#": {
-      "id": "(app-client)/./public/images/career-05.jpg",
-      "name": "",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/career-05.jpg#default": {
-      "id": "(app-client)/./public/images/career-05.jpg",
-      "name": "default",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/career-06.jpg": {
-      "id": "(app-client)/./public/images/career-06.jpg",
-      "name": "*",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/career-06.jpg#": {
-      "id": "(app-client)/./public/images/career-06.jpg",
-      "name": "",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/career-06.jpg#default": {
-      "id": "(app-client)/./public/images/career-06.jpg",
-      "name": "default",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/hero-bg-03.jpg": {
-      "id": "(app-client)/./public/images/hero-bg-03.jpg",
-      "name": "*",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/hero-bg-03.jpg#": {
-      "id": "(app-client)/./public/images/hero-bg-03.jpg",
-      "name": "",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/hero-bg-03.jpg#default": {
-      "id": "(app-client)/./public/images/hero-bg-03.jpg",
-      "name": "default",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/team-member-01.jpg": {
-      "id": "(app-client)/./public/images/team-member-01.jpg",
-      "name": "*",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/team-member-01.jpg#": {
-      "id": "(app-client)/./public/images/team-member-01.jpg",
-      "name": "",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/team-member-01.jpg#default": {
-      "id": "(app-client)/./public/images/team-member-01.jpg",
-      "name": "default",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/team-member-02.jpg": {
-      "id": "(app-client)/./public/images/team-member-02.jpg",
-      "name": "*",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/team-member-02.jpg#": {
-      "id": "(app-client)/./public/images/team-member-02.jpg",
-      "name": "",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/team-member-02.jpg#default": {
-      "id": "(app-client)/./public/images/team-member-02.jpg",
-      "name": "default",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/team-member-03.jpg": {
-      "id": "(app-client)/./public/images/team-member-03.jpg",
-      "name": "*",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/team-member-03.jpg#": {
-      "id": "(app-client)/./public/images/team-member-03.jpg",
-      "name": "",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/team-member-03.jpg#default": {
-      "id": "(app-client)/./public/images/team-member-03.jpg",
-      "name": "default",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/team-member-04.jpg": {
-      "id": "(app-client)/./public/images/team-member-04.jpg",
-      "name": "*",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/team-member-04.jpg#": {
-      "id": "(app-client)/./public/images/team-member-04.jpg",
-      "name": "",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/team-member-04.jpg#default": {
-      "id": "(app-client)/./public/images/team-member-04.jpg",
-      "name": "default",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/team-member-05.jpg": {
-      "id": "(app-client)/./public/images/team-member-05.jpg",
-      "name": "*",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/team-member-05.jpg#": {
-      "id": "(app-client)/./public/images/team-member-05.jpg",
-      "name": "",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/team-member-05.jpg#default": {
-      "id": "(app-client)/./public/images/team-member-05.jpg",
-      "name": "default",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/team-member-06.jpg": {
-      "id": "(app-client)/./public/images/team-member-06.jpg",
-      "name": "*",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/team-member-06.jpg#": {
-      "id": "(app-client)/./public/images/team-member-06.jpg",
-      "name": "",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/team-member-06.jpg#default": {
-      "id": "(app-client)/./public/images/team-member-06.jpg",
-      "name": "default",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/team-member-07.jpg": {
-      "id": "(app-client)/./public/images/team-member-07.jpg",
-      "name": "*",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/team-member-07.jpg#": {
-      "id": "(app-client)/./public/images/team-member-07.jpg",
-      "name": "",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/team-member-07.jpg#default": {
-      "id": "(app-client)/./public/images/team-member-07.jpg",
-      "name": "default",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/team-member-08.jpg": {
-      "id": "(app-client)/./public/images/team-member-08.jpg",
-      "name": "*",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/team-member-08.jpg#": {
-      "id": "(app-client)/./public/images/team-member-08.jpg",
-      "name": "",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/team-member-08.jpg#default": {
-      "id": "(app-client)/./public/images/team-member-08.jpg",
-      "name": "default",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/team-member-09.jpg": {
-      "id": "(app-client)/./public/images/team-member-09.jpg",
-      "name": "*",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/team-member-09.jpg#": {
-      "id": "(app-client)/./public/images/team-member-09.jpg",
-      "name": "",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/team-member-09.jpg#default": {
-      "id": "(app-client)/./public/images/team-member-09.jpg",
-      "name": "default",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/team-member-10.jpg": {
-      "id": "(app-client)/./public/images/team-member-10.jpg",
-      "name": "*",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/team-member-10.jpg#": {
-      "id": "(app-client)/./public/images/team-member-10.jpg",
-      "name": "",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/public/images/team-member-10.jpg#default": {
-      "id": "(app-client)/./public/images/team-member-10.jpg",
-      "name": "default",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/components/timeline.tsx": {
-      "id": "(app-client)/./components/timeline.tsx",
-      "name": "*",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/components/timeline.tsx#": {
-      "id": "(app-client)/./components/timeline.tsx",
-      "name": "",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/gmogmz/Code/website_template/components/timeline.tsx#default": {
-      "id": "(app-client)/./components/timeline.tsx",
-      "name": "default",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
       ],
       "async": false
     }
