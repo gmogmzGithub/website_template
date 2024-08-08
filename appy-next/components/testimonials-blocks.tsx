@@ -1,76 +1,68 @@
-import Image from 'next/image'
-import TestimonialImage01 from '@/public/images/testimonial-01.jpg'
-import TestimonialImage02 from '@/public/images/testimonial-02.jpg'
-import TestimonialImage03 from '@/public/images/testimonial-03.jpg'
-import TestimonialImage04 from '@/public/images/testimonial-04.jpg'
+// components/TestimonialsBlocks.tsx
 
-export default function TestimonialsBlocks() {  
+import Image from 'next/image'
+import TestimonialImage01 from '@/public/images/Tapon.jpeg'
+import TestimonialImage02 from '@/public/images/Cachetes.jpeg'
+import TestimonialImage03 from '@/public/images/Rufianes.png'
+import TestimonialImage04 from '@/public/images/Delia.jpeg'
+import TestimonialImage05 from '@/public/images/PakkiCornelia.jpeg'
+
+export default function TestimonialsBlocks() {
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20 border-t border-transparent dark:border-gray-800">
-
-          {/* Testimonials */}
           <div className="max-w-sm mx-auto grid gap-x-8 gap-y-12 sm:grid-cols-2 lg:gap-12 items-start sm:max-w-none md:max-w-2xl lg:max-w-none">
-
-            {/* 1st testimonial */}
+            {/* Testimonial 1 */}
             <div className="text-center">
               <div className="relative inline-flex flex-col mb-4">
-                <Image className="rounded-full" src={TestimonialImage01} width={56} height={56} alt="Testimonial 01" />
-                <svg className="absolute top-0 right-0 mt-1 -mr-8" width="27" height="12" xmlns="http://www.w3.org/2000/svg">
-                  <path className="fill-current text-purple-500" d="M2.785 5.334C2.538 5.5-.2 2.944.011 2.646.826 1.483 2.183.836 3.62.5 5.064.158 6.582.117 7.92-.02c.017-.002.098.153.088.166-1.763 2.018-3.223 3.836-5.221 5.188zm3.676 6.519c-.862.184-1.937-3.403-1.07-3.711 3.422-1.22 7.078-1.671 10.728-1.766 3.655-.096 7.304.162 10.866.32.044.002.06.177.018.187-6.938 1.634-13.691 3.504-20.542 4.97z" />
-                </svg>
+                <Image className="rounded-full" src={TestimonialImage01} width={56} height={56} alt="Testimonial 01" loading="lazy" aria-label="Testimonial from Familia García" />
               </div>
-              <blockquote className="text-xl text-gray-600 dark:text-gray-400">“ This is a great app and the value is amazing. Since I purchased it I have been using it everyday! Highly recommend it. “</blockquote>
+              <blockquote className="text-xl text-gray-600 dark:text-gray-400">“ ¡Estoy emocionado, voy a tener un ahijado! Le voy a enseñar el escorpión!. “</blockquote>
               <div className="font-red-hat-display font-bold mt-2">
-                <cite className="not-italic">—Andy Croll</cite>, <a className="text-teal-500 transition duration-150 ease-in-out" href="#0">Appy.com</a>
+                <cite className="not-italic">—Tapón</cite>
               </div>
             </div>
-
-            {/* 2nd testimonial */}
+            {/* Testimonial 2 */}
             <div className="text-center">
               <div className="relative inline-flex flex-col mb-4">
-                <Image className="rounded-full" src={TestimonialImage02} width={56} height={56} alt="Testimonial 02" />
-                <svg className="absolute top-0 right-0 mt-1 -mr-8" width="27" height="12" xmlns="http://www.w3.org/2000/svg">
-                  <path className="fill-current text-purple-500" d="M2.785 5.334C2.538 5.5-.2 2.944.011 2.646.826 1.483 2.183.836 3.62.5 5.064.158 6.582.117 7.92-.02c.017-.002.098.153.088.166-1.763 2.018-3.223 3.836-5.221 5.188zm3.676 6.519c-.862.184-1.937-3.403-1.07-3.711 3.422-1.22 7.078-1.671 10.728-1.766 3.655-.096 7.304.162 10.866.32.044.002.06.177.018.187-6.938 1.634-13.691 3.504-20.542 4.97z" />
-                </svg>
+                <Image className="rounded-full" src={TestimonialImage02} width={56} height={56} alt="Testimonial 02" loading="lazy" aria-label="Testimonial from Patricia y Juan" />
               </div>
-              <blockquote className="text-xl text-gray-600 dark:text-gray-400">“ This is a great app and the value is amazing. Since I purchased it I have been using it everyday! Highly recommend it. “</blockquote>
+              <blockquote className="text-xl text-gray-600 dark:text-gray-400">“Yo voy a traer al Mundo al Mini-Men“</blockquote>
               <div className="font-red-hat-display font-bold mt-2">
-                <cite className="not-italic">—Patricia Lepisov</cite>, <a className="text-teal-500 transition duration-150 ease-in-out" href="#0">Nobi Bank</a>
+                <cite className="not-italic">—Dra Daniela, la mejor ginecóloga de 🇲🇽</cite>
               </div>
             </div>
-
-            {/* 3rd testimonial */}
+            {/* Testimonial 3 */}
             <div className="text-center">
               <div className="relative inline-flex flex-col mb-4">
-                <Image className="rounded-full" src={TestimonialImage03} width={56} height={56} alt="Testimonial 03" />
-                <svg className="absolute top-0 right-0 mt-1 -mr-8" width="27" height="12" xmlns="http://www.w3.org/2000/svg">
-                  <path className="fill-current text-purple-500" d="M2.785 5.334C2.538 5.5-.2 2.944.011 2.646.826 1.483 2.183.836 3.62.5 5.064.158 6.582.117 7.92-.02c.017-.002.098.153.088.166-1.763 2.018-3.223 3.836-5.221 5.188zm3.676 6.519c-.862.184-1.937-3.403-1.07-3.711 3.422-1.22 7.078-1.671 10.728-1.766 3.655-.096 7.304.162 10.866.32.044.002.06.177.018.187-6.938 1.634-13.691 3.504-20.542 4.97z" />
-                </svg>
+                <Image className="rounded-full" src={TestimonialImage03} width={56} height={56} alt="Testimonial 03" loading="lazy" aria-label="Testimonial from Zhenya Ritz" />
               </div>
-              <blockquote className="text-xl text-gray-600 dark:text-gray-400">“ This is a great app and the value is amazing. Since I purchased it I have been using it everyday! Highly recommend it. “</blockquote>
+              <blockquote className="text-xl text-gray-600 dark:text-gray-400">“ Un Rufiancito a la familia “</blockquote>
               <div className="font-red-hat-display font-bold mt-2">
-                <cite className="not-italic">—Zhenya Ritz</cite>, <a className="text-teal-500 transition duration-150 ease-in-out" href="#0">Sync</a>
+                <cite className="not-italic">-Los Rufianes</cite>
               </div>
             </div>
-
-            {/* 4th testimonial */}
+            {/* Testimonial 4 */}
             <div className="text-center">
               <div className="relative inline-flex flex-col mb-4">
-                <Image className="rounded-full" src={TestimonialImage04} width={56} height={56} alt="Testimonial 04" />
-                <svg className="absolute top-0 right-0 mt-1 -mr-8" width="27" height="12" xmlns="http://www.w3.org/2000/svg">
-                  <path className="fill-current text-purple-500" d="M2.785 5.334C2.538 5.5-.2 2.944.011 2.646.826 1.483 2.183.836 3.62.5 5.064.158 6.582.117 7.92-.02c.017-.002.098.153.088.166-1.763 2.018-3.223 3.836-5.221 5.188zm3.676 6.519c-.862.184-1.937-3.403-1.07-3.711 3.422-1.22 7.078-1.671 10.728-1.766 3.655-.096 7.304.162 10.866.32.044.002.06.177.018.187-6.938 1.634-13.691 3.504-20.542 4.97z" />
-                </svg>
+                <Image className="rounded-full" src={TestimonialImage04} width={56} height={56} alt="Testimonial 04" loading="lazy" aria-label="Testimonial from Lisa Champ" />
               </div>
-              <blockquote className="text-xl text-gray-600 dark:text-gray-400">“ This is a great app and the value is amazing. Since I purchased it I have been using it everyday! Highly recommend it. “</blockquote>
+              <blockquote className="text-xl text-gray-600 dark:text-gray-400">“ Traiganlo a San Francisco, Emma quiere concoerlo “</blockquote>
               <div className="font-red-hat-display font-bold mt-2">
-                <cite className="not-italic">—Lisa Champ</cite>, <a className="text-teal-500 transition duration-150 ease-in-out" href="#0">Appicu</a>
+                <cite className="not-italic">—Delia, "La Cocina Minimalista"</cite>
               </div>
             </div>
-
           </div>
-
+          <div className="text-center mt-12">
+            <div className="relative inline-flex flex-col mb-4">
+              <Image className="rounded-full" src={TestimonialImage05} width={56} height={56} alt="Testimonial 04" loading="lazy" aria-label="Testimonial from Pakki y Cornelia" />
+            </div>
+            <blockquote className="text-xl text-gray-600 dark:text-gray-400">“ Woof!!!, woof wooof woofff! “</blockquote>
+            <div className="font-red-hat-display font-bold mt-2">
+              <cite className="not-italic">—Pakki y Cornelia</cite>
+            </div>
+          </div>
         </div>
       </div>
     </section>
