@@ -1,7 +1,7 @@
 // components/HeroHome.tsx
 
 import Image from 'next/image'
-import PlaceholderImage from '@/public/images/Its-a-boy.png' // Using an existing image as a placeholder
+import PlaceholderImage from '@/public/images/Its-a-boy.png' // Usando una imagen de marcador de posición
 
 export default function HeroHome() {
   return (
@@ -15,7 +15,9 @@ export default function HeroHome() {
                 <br />
                 Atte:
                 <br />
-                <span className="text-6xl">El mini-Men</span>
+                <span className="text-8xl">Renato</span>
+                <br />
+                <span className="text-4xl">El mini-Men</span>
               </h1>
               <p className="text-xl text-gray-600 dark:text-gray-400" data-aos="fade-down" data-aos-delay="150">
                 Estamos esperando la llegada de nuestro bebé en febrero de 2025. ¡Gracias por acompañarnos en este viaje!

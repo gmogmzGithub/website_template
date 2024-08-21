@@ -12,7 +12,7 @@ export default function Process() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20 border-t border-gray-200 dark:border-gray-800">
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 font-red-hat-display mb-4">Los pasos hacia la llegada de El Men-cito</h2>
+            <h2 className="h2 font-red-hat-display mb-4">Los pasos hacia la llegada de El Mini-Men</h2>
             <p className="text-xl text-gray-600 dark:text-gray-400">Acompáñanos en estos momentos especiales mientras esperamos la llegada de nuestro bebé.</p>
           </div>
           <div className="max-w-sm mx-auto grid gap-12 md:gap-x-6 lg:gap-x-12 md:grid-cols-3 items-start md:max-w-none">
@@ -27,7 +27,7 @@ export default function Process() {
               </div>
               <div className="text-center mt-4">
                 <h3 className="text-xl font-bold">Primer Ultrasonido</h3>
-                <p className="text-gray-600 dark:text-gray-400">El momento en que vimos a El Men-cito por primera vez.</p>
+                <p className="text-gray-600 dark:text-gray-400">El momento en que vimos a Renato por primera vez.</p>
               </div>
             </div>
             {/* 2nd Item */}
