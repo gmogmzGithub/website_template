@@ -28,24 +28,28 @@ if (carouselEl.length > 0) {
 const lightSwitches = document.querySelectorAll('.light-switch');
 if (lightSwitches.length > 0) {
   lightSwitches.forEach((lightSwitch, i) => {
-    if (localStorage.getItem('dark-mode') === 'true' || !('dark-mode' in localStorage)) {
-      // eslint-disable-next-line no-param-reassign
+    // Default to light mode
+    if (localStorage.getItem('dark-mode') === 'true') {
       lightSwitch.checked = true;
+      document.documentElement.classList.add('dark');
+    } else {
+      lightSwitch.checked = false;
+      document.documentElement.classList.remove('dark');
     }
+
     lightSwitch.addEventListener('change', () => {
       const { checked } = lightSwitch;
       lightSwitches.forEach((el, n) => {
         if (n !== i) {
-          // eslint-disable-next-line no-param-reassign
           el.checked = checked;
         }
       });
-      if (lightSwitch.checked) {
+      if (checked) {
         document.documentElement.classList.add('dark');
-        localStorage.setItem('dark-mode', true);
+        localStorage.setItem('dark-mode', 'true');
       } else {
         document.documentElement.classList.remove('dark');
-        localStorage.setItem('dark-mode', false);
+        localStorage.setItem('dark-mode', 'false');
       }
     });
   });
