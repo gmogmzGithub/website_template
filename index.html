@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+
+<head>
+    <meta charset="utf-8">
+    <title>La web de Bebé Renato!</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="./css/vendors/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/vendors/swiper-bundle.min.css" />
+    <link href="./style.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="./images/biberon.png">
+    <script>
+    if (localStorage.getItem('dark-mode') == 'true' || !('dark-mode' in localStorage)) {
+        document.querySelector('html').classList.add('dark');
+    } else {
+        document.querySelector('html').classList.remove('dark');
+    }        
+    </script>
+</head>
+
+<body class="font-inter antialiased bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-100 tracking-tight">
+
+    <!-- Page wrapper -->
+    <div class="flex flex-col min-h-screen overflow-hidden">
+
+        <!-- Site header -->
+        <header class="absolute w-full z-30">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6">
+                <div class="flex items-center justify-between h-20">
+
+                    <!-- Site branding -->
+                    <div class="shrink-0 mr-5">
+                        <!-- Logo -->
+                        <a class="block" href="index.html" aria-label="Cruip">
+                            <img src="./images/Stroller.png" alt="Logo" class="w-8 h-8">
+                        </a>
+                    </div>
+
+                    <!-- Desktop navigation -->
+                    <nav class="hidden md:flex md:grow">
+
+                        <!-- Desktop menu links -->
+                        <ul class="flex grow flex-wrap items-center font-medium">
+                            <li>
+                                <a class="font-bold text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 px-5 py-2 flex items-center transition duration-150 ease-in-out"
+                                    href="about.html">Mesas de Regalos</a>
+                            </li>
+                        </ul>
+
+                        <!-- Desktop lights switch -->
+                        <div class="form-switch flex flex-col justify-center ml-3">
+                            <input type="checkbox" name="light-switch" id="light-switch-desktop" class="light-switch sr-only" />
+                            <label class="relative" for="light-switch-desktop">
+                                <span class="relative bg-gradient-to-t from-gray-100 to-white dark:from-gray-800 dark:to-gray-700 shadow-sm z-10" aria-hidden="true"></span>
+                                <svg class="absolute inset-0" width="44" height="24" viewBox="0 0 44 24" xmlns="http://www.w3.org/2000/svg">
+                                    <g class="fill-current text-white" fill-rule="nonzero" opacity=".88">
+                                        <path d="M32 8a.5.5 0 00.5-.5v-1a.5.5 0 10-1 0v1a.5.5 0 00.5.5zM35.182 9.318a.5.5 0 00.354-.147l.707-.707a.5.5 0 00-.707-.707l-.707.707a.5.5 0 00.353.854zM37.5 11.5h-1a.5.5 0 100 1h1a.5.5 0 100-1zM35.536 14.829a.5.5 0 00-.707.707l.707.707a.5.5 0 00.707-.707l-.707-.707zM32 16a.5.5 0 00-.5.5v1a.5.5 0 101 0v-1a.5.5 0 00-.5-.5zM28.464 14.829l-.707.707a.5.5 0 00.707.707l.707-.707a.5.5 0 00-.707-.707zM28 12a.5.5 0 00-.5-.5h-1a.5.5 0 100 1h1a.5.5 0 00.5-.5zM28.464 9.171a.5.5 0 00.707-.707l-.707-.707a.5.5 0 00-.707.707l.707.707z" />
+                                        <circle cx="32" cy="12" r="3" />
+                                        <circle fill-opacity=".4" cx="12" cy="12" r="6" />
+                                        <circle fill-opacity=".88" cx="12" cy="12" r="3" />
+                                    </g>
+                                </svg>
+                                <span class="sr-only">Switch to light / dark version</span>
+                            </label>
+                        </div>
+                    </nav>
+                    
+                    <!-- Mobile menu -->
+                    <div class="inline-flex md:hidden" x-data="{ expanded: false }">
+
+                        <!-- Mobile lights switch -->
+                        <div class="form-switch flex flex-col justify-center mr-6">
+                            <input type="checkbox" name="light-switch" id="light-switch-mobile" class="light-switch sr-only" />
+                            <label class="relative" for="light-switch-mobile">
+                                <span class="relative bg-gradient-to-t from-gray-100 to-white dark:from-gray-800 dark:to-gray-700 shadow-sm z-10" aria-hidden="true"></span>
+                                <svg class="absolute inset-0" width="44" height="24" viewBox="0 0 44 24" xmlns="http://www.w3.org/2000/svg">
+                                    <g class="fill-current text-white" fill-rule="nonzero" opacity=".88">
+                                        <path d="M32 8a.5.5 0 00.5-.5v-1a.5.5 0 10-1 0v1a.5.5 0 00.5.5zM35.182 9.318a.5.5 0 00.354-.147l.707-.707a.5.5 0 00-.707-.707l-.707.707a.5.5 0 00.353.854zM37.5 11.5h-1a.5.5 0 100 1h1a.5.5 0 100-1zM35.536 14.829a.5.5 0 00-.707.707l.707.707a.5.5 0 00.707-.707l-.707-.707zM32 16a.5.5 0 00-.5.5v1a.5.5 0 101 0v-1a.5.5 0 00-.5-.5zM28.464 14.829l-.707.707a.5.5 0 00.707.707l.707-.707a.5.5 0 00-.707-.707zM28 12a.5.5 0 00-.5-.5h-1a.5.5 0 100 1h1a.5.5 0 00.5-.5zM28.464 9.171a.5.5 0 00.707-.707l-.707-.707a.5.5 0 00-.707.707l.707.707z" />
+                                        <circle cx="32" cy="12" r="3" />
+                                        <circle fill-opacity=".4" cx="12" cy="12" r="6" />
+                                        <circle fill-opacity=".88" cx="12" cy="12" r="3" />
+                                    </g>
+                                </svg>
+                                <span class="sr-only">Switch to light / dark version</span>
+                            </label>
+                        </div>
+
+                        <!-- Hamburger button -->
+                        <button
+                            class="hamburger"
+                            :class="{ 'active': expanded }"
+                            @click.stop="expanded = !expanded"
+                            aria-controls="mobile-nav"
+                            :aria-expanded="expanded"
+                        >
+                            <span class="sr-only">Menu</span>
+                            <svg class="w-6 h-6 fill-current text-gray-900 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 transition duration-150 ease-in-out" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <rect y="4" width="24" height="2" rx="1" />
+                                <rect y="11" width="24" height="2" rx="1" />
+                                <rect y="18" width="24" height="2" rx="1" />
+                            </svg>
+                        </button>
+
+                        <!-- Mobile navigation -->
+                        <nav
+                            id="mobile-nav"
+                            class="fixed top-0 h-screen z-20 left-0 w-full max-w-sm -ml-16 overflow-scroll bg-white dark:bg-gray-900 shadow-lg no-scrollbar"
+                            @click.outside="expanded = false"
+                            @keydown.escape.window="expanded = false"
+                            x-show="expanded"
+                            x-transition:enter="transition ease-out duration-200 transform"
+                            x-transition:enter-start="opacity-0 -translate-x-full"
+                            x-transition:enter-end="opacity-100 translate-x-0"
+                            x-transition:leave="transition ease-out duration-200"
+                            x-transition:leave-start="opacity-100"
+                            x-transition:leave-end="opacity-0"
+                            x-cloak
+                        >
+                            <div class="py-6 pr-4 pl-20">
+                                <!-- Logo -->
+                                <a class="inline-block mb-4" href="index.html" aria-label="Cruip">
+                                    <svg class="w-8 h-8" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                                        <defs>
+                                            <linearGradient x1="26%" y1="100%" x2="100%" y2="100%" id="menulogo_a">
+                                                <stop stop-color="#3ABAB4" offset="0%" />
+                                                <stop stop-color="#7F9CF5" offset="100%" />
+                                            </linearGradient>
+                                            <linearGradient x1="26%" y1="100%" x2="100%" y2="100%" id="menulogo_b">
+                                                <stop stop-color="#3ABAB4" offset="0%" />
+                                                <stop stop-color="#3ABAB4" stop-opacity="0" offset="100%" />
+                                            </linearGradient>
+                                        </defs>
+                                        <path d="M32 16h-8a8 8 0 10-16 0H0C0 7.163 7.163 0 16 0s16 7.163 16 16z" fill="url(#menulogo_a)" />
+                                        <path d="M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16h8a8 8 0 1016 0h8z" fill="url(#menulogo_b)" />
+                                    </svg>
+                                </a>
+                                <!-- Links -->
+                                <ul>
+                                    <li>
+                                        <a class="flex text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 py-2" href="about.html">Mesas de Regalos</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+
+                    </div>
+
+                </div>
+            </div>
+        </header>
+
+        <!-- Page content -->
+        <main class="grow">
+
+            <!-- Page illustration -->
+            <div class="relative max-w-6xl mx-auto h-0 pointer-events-none -z-1" aria-hidden="true">
+                <svg class="absolute top-0 right-0 transform translate-x-1/2 -mr-16 dark:opacity-40" width="800" height="502" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="400" cy="102" r="400" fill="url(#heroglow_paint0_radial)" fill-opacity=".6" />
+                    <circle cx="209" cy="289" r="170" fill="url(#heroglow_paint1_radial)" fill-opacity=".4" />
+                    <defs>
+                        <radialGradient id="heroglow_paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="rotate(90 149 251) scale(315.089)">
+                            <stop stop-color="#3ABAB4" />
+                            <stop offset="1" stop-color="#3ABAB4" stop-opacity=".01" />
+                        </radialGradient>
+                        <radialGradient id="heroglow_paint1_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="rotate(90 -40 249) scale(133.913)">
+                            <stop stop-color="#667EEA" />
+                            <stop offset="1" stop-color="#667EEA" stop-opacity=".01" />
+                        </radialGradient>
+                    </defs>
+                </svg>
+            </div>
+            
+            <!-- Hero -->
+            <section>
+                <div class="max-w-6xl mx-auto px-4 sm:px-6">
+                    <div class="pt-32 pb-10 md:pt-40 md:pb-16">
+                        <div class="md:grid md:grid-cols-12 md:gap-12 lg:gap-20 items-center">
+                            <!-- Text Section -->
+                            <div class="md:col-span-7 lg:col-span-7 mb-8 md:mb-0 text-center md:text-left">
+                                <h1 class="text-4xl lg:text-7xl mb-4 font-red-hat-display font-black" data-aos="fade-down">
+                                    ¡Ya quiero conocerte!,
+                                    <br />
+                                    Atte: Renato
+                                    <br />
+                                    <div class="text-3xl lg:text-3xl text-right pr-4" data-aos="fade-down" data-aos-delay="200">
+                                        <span>El mini-Men</span>
+                                    </div>
+                                </h1>
+                                <p class="text-xl text-gray-600 dark:text-gray-400" data-aos="fade-down" data-aos-delay="150">
+                                    Estamos esperando la llegada de nuestro bebé en febrero de 2025. ¡Gracias por acompañarnos en
+                                    este viaje!
+                                </p>
+                            </div>
+                            <!-- Image Section -->
+                            <div class="md:col-span-5 lg:col-span-5 text-center md:text-right" data-aos="fade-up"
+                                data-aos-delay="450">
+                                <img src="./images/Its-a-boy.png" alt="It's a BOY" class="rounded-lg shadow-lg"
+                                    width="400" height="400">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Stats -->
+            <section class="relative">
+                <div class="relative max-w-6xl mx-auto px-4 sm:px-6">
+                    <div class="pb-12 md:pb-20">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-center">
+                            <!-- Stat 1 -->
+                            <div class="bg-white dark:bg-gray-800 py-8 px-4 shadow-2xl rounded-lg">
+                                <div class="font-red-hat-display text-3xl font-black tracking-tighter mb-1">02/2025</div>
+                                <div class="text-gray-600 dark:text-gray-400">Fecha estimada de nacimiento</div>
+                            </div>
+                            <!-- Stat 2 -->
+                            <div class="bg-white dark:bg-gray-800 py-8 px-4 shadow-2xl rounded-lg">
+                                <div class="font-red-hat-display text-3xl font-black tracking-tighter mb-1">Trimestre 2</div>
+                                <div class="text-gray-600 dark:text-gray-400">Estamos en el segundo trimestre</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Process -->
+            <!-- Process Section -->
+            <section class="relative">
+                <div class="max-w-6xl mx-auto px-4 sm:px-6">
+                    <div class="py-12 md:py-20 border-t border-gray-200 dark:border-gray-800">
+            
+                        <!-- Section header -->
+                        <div class="max-w-3xl mx-auto text-center pb-12 md:pb-20">
+                            <h2 class="h2 font-red-hat-display mb-4">Los pasos hacia la llegada de El Mini-Men</h2>
+                            <p class="text-xl text-gray-600 dark:text-gray-400">Acompáñanos en estos momentos especiales mientras
+                                esperamos la llegada de nuestro bebé.</p>
+                        </div>
+            
+                        <!-- Items -->
+                        <div class="max-w-sm mx-auto grid gap-12 md:gap-x-6 lg:gap-x-12 md:grid-cols-2 items-start md:max-w-none">
+            
+                            <!-- 1st Item -->
+                            <div class="relative flex flex-col items-center">
+                                <!-- Icon -->
+                                <div
+                                    class="w-16 h-16 rounded-full bg-teal-400 dark:bg-teal-600 dark:bg-opacity-25 flex justify-center items-center text-white dark:text-teal-400 font-medium mb-8 lg:mb-12">
+                                    <span class="text-3xl">👶</span>
+                                </div>
+                                <!-- Mobile mockup -->
+                                <div class="inline-flex relative justify-center items-center">
+                                    <img class="absolute" src="./images/mockup-ultrasonido-02.jpg" width="990" height="624"
+                                        style="max-width: 90%;" alt="Ultrasonido" />
+                                    <img class="relative max-w-full mx-auto h-auto pointer-events-none"
+                                        src="./images/iphone-mockup.png" width="344" height="674" alt="iPhone mockup"
+                                        aria-hidden="true" />
+                                </div>
+                                <div class="text-center mt-4">
+                                    <h3 class="text-xl font-bold">Primer Ultrasonido</h3>
+                                    <p class="text-gray-600 dark:text-gray-400">El momento en que vimos a Renato por primera vez.
+                                    </p>
+                                </div>
+                            </div>
+            
+                            <!-- 2nd Item -->
+                            <div class="relative flex flex-col items-center">
+                                <!-- Icon -->
+                                <div
+                                    class="w-16 h-16 rounded-full bg-teal-400 dark:bg-teal-600 dark:bg-opacity-25 flex justify-center items-center text-white dark:text-teal-400 font-medium mb-8 lg:mb-12">
+                                    <span class="text-3xl">🎉</span>
+                                </div>
+                                <!-- Mobile mockup -->
+                                <div class="inline-flex relative justify-center items-center">
+                                    <img class="absolute" src="./images/baby_shower.png" width="290" height="624"
+                                        style="max-width: 84.33%;" alt="Baby Shower" />
+                                    <img class="relative max-w-full mx-auto h-auto pointer-events-none"
+                                        src="./images/iphone-mockup.png" width="344" height="674" alt="iPhone mockup"
+                                        aria-hidden="true" />
+                                </div>
+                                <div class="text-center mt-4">
+                                    <h3 class="text-xl font-bold">Baby Shower</h3>
+                                    <p class="text-gray-600 dark:text-gray-400">Para que le demos bendiciones a Geri.</p>
+                                </div>
+                            </div>
+            
+                        </div>
+            
+                    </div>
+                </div>
+            </section>
+
+            <section
+                class="relative bg-gradient-to-r from-blue-400 via-blue-500 to-orange-400 border-t border-transparent dark:border-gray-800">
+                <div class="relative max-w-6xl mx-auto px-4 sm:px-6">
+                    <div class="py-12 md:py-20">
+                        <!-- Section header -->
+                        <div class="text-center">
+                            <h2 class="h2 font-red-hat-display mb-4 text-white">¡Descubre Nuestra Mesa de Regalos!</h2>
+                            <p class="text-xl text-white mb-4">Te invitamos a ver todas las opciones que hemos preparado para
+                                Renato. ¡Tu apoyo será muy apreciado! 🎁</p>
+                            <a href="about.html"
+                                class="bg-gradient-to-p inline-block bg-gradient-to-r from-pink-500 via-pink-400 to-red-300 text-white font-bold py-3 px-6 rounded-lg shadow-lg hover:from-pink-400 hover:via-pink-300 hover:to-red-200 transition duration-300">
+                                Ir a la Mesa de Regalos
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Testimonials -->
+            <section>
+                <div class="max-w-6xl mx-auto px-4 sm:px-6">
+                    <div class="py-12 md:py-20 border-t border-transparent dark:border-gray-800">
+                        <div
+                            class="max-w-sm mx-auto grid gap-x-8 gap-y-12 sm:grid-cols-2 lg:gap-12 items-start sm:max-w-none md:max-w-2xl lg:max-w-none">
+            
+                            <!-- Testimonial 1 -->
+                            <div class="text-center">
+                                <div class="relative inline-flex flex-col mb-4">
+                                    <img class="rounded-full" src="./images/CaroCastro.png" width="56" height="56" alt="Testimonial 03" />
+                                </div>
+                                <blockquote class="text-xl text-gray-600 dark:text-gray-400">“ Quién creen que lo llevará a Disney? “
+                                </blockquote>
+                                <div class="font-red-hat-display font-bold mt-2">
+                                    <cite class="not-italic">—Caro Castro</cite>
+                                </div>
+                            </div>
+                            <!-- 
+                            <div class="text-center">
+                                <div class="relative inline-flex flex-col mb-4">
+                                    <img class="rounded-full" src="./images/Tapon.jpeg" width="56" height="56"
+                                        alt="Testimonial 01" />
+                                </div>
+                                <blockquote class="text-xl text-gray-600 dark:text-gray-400">“ ¡Estoy emocionado, voy a tener un
+                                    ahijado! Le voy a enseñar el escorpión!. “</blockquote>
+                                <div class="font-red-hat-display font-bold mt-2">
+                                    <cite class="not-italic">—Tapón</cite>
+                                </div>
+                            </div>
+                            -->
+            
+                            <!-- Testimonial 2 -->
+                            <div class="text-center">
+                                <div class="relative inline-flex flex-col mb-4">
+                                    <img class="rounded-full" src="./images/Cachetes.jpeg" width="56" height="56"
+                                        alt="Testimonial 02" />
+                                </div>
+                                <blockquote class="text-xl text-gray-600 dark:text-gray-400">“ Yo voy a traer al Mundo al Mini-Men “
+                                </blockquote>
+                                <div class="font-red-hat-display font-bold mt-2">
+                                    <cite class="not-italic">—Dra Daniela, la mejor ginecóloga de 🇲🇽</cite>
+                                </div>
+                            </div>
+            
+                            <!-- Testimonial 3 -->
+                            <div class="text-center">
+                                <div class="relative inline-flex flex-col mb-4">
+                                    <img class="rounded-full" src="./images/MarVaca.png" width="56" height="56"
+                                        alt="Testimonial 03" />
+                                </div>
+                                <blockquote class="text-xl text-gray-600 dark:text-gray-400">“No podía creerlo“
+                                </blockquote>
+                                <div class="font-red-hat-display font-bold mt-2">
+                                    <cite class="not-italic">—Mar Vaca</cite>
+                                </div>
+                            </div>
+            
+                            <!-- Testimonial 4 -->
+                            <div class="text-center">
+                                <div class="relative inline-flex flex-col mb-4">
+                                    <img class="rounded-full" src="./images/Delia.jpeg" width="56" height="56"
+                                        alt="Testimonial 04" />
+                                </div>
+                                <blockquote class="text-xl text-gray-600 dark:text-gray-400">“ Traiganlo a San Francisco, Emma
+                                    quiere conocerlo “</blockquote>
+                                <div class="font-red-hat-display font-bold mt-2">
+                                    <cite class="not-italic">—Delia, "La Cocina Minimalista"</cite>
+                                </div>
+                            </div>
+                        </div>
+            
+                        <!-- Additional Testimonial -->
+                        <div class="text-center mt-12">
+                            <div class="relative inline-flex flex-col mb-4">
+                                <img class="rounded-full" src="./images/PakkiCornelia.jpeg" width="56" height="56"
+                                    alt="Testimonial 05" />
+                            </div>
+                            <blockquote class="text-xl text-gray-600 dark:text-gray-400">“ Woof!!!, woof wooof woofff! “
+                            </blockquote>
+                            <div class="font-red-hat-display font-bold mt-2">
+                                <cite class="not-italic">—Pakki y Cornelia</cite>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        <!-- Site footer -->
+        <footer class="relative bg-gradient-to-r from-blue-500 via-indigo-500 to-purple-500 text-white">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6">
+                <div class="py-12 md:py-16 border-t border-gray-200 dark:border-gray-800 -mt-px text-center">
+        
+                    <!-- Footer illustration -->
+                    <div class="pointer-events-none -z-1" aria-hidden="true">
+                        <svg class="absolute bottom-0 left-0 transform -translate-x-1/2 ml-24 dark:opacity-40" width="800"
+                            height="264" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="400" cy="400" r="400" fill="url(#footerglow_paint0_radial)" fill-opacity=".4" />
+                            <defs>
+                                <radialGradient id="footerglow_paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+                                    gradientTransform="rotate(90 0 400) scale(315.089)">
+                                    <stop stop-color="#3ABAB4" />
+                                    <stop offset="1" stop-color="#3ABAB4" stop-opacity=".01" />
+                                </radialGradient>
+                            </defs>
+                        </svg>
+                    </div>
+        
+                    <!-- Logo -->
+                    <div class="mb-8">
+                        <a href="/" aria-label="El Men-cito">
+                            <svg class="w-12 h-12 mx-auto" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="16" cy="16" r="16" fill="#FFD700" />
+                                <text x="16" y="21" font-size="16" text-anchor="middle" fill="#FF6347">👶</text>
+                            </svg>
+                        </a>
+                    </div>
+        
+                    <!-- Fun text -->
+                    <div class="text-lg font-bold">
+                        <p>¡Gracias por tu visita a la página de El Mini-Men!, ya quiero conocerte!</p>
+                        <p>© El Men y La Men, todos los derechos son nuestros.</p>
+                    </div>
+        
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="./js/vendors/alpinejs.min.js" defer></script>
+    <script src="./js/vendors/aos.js"></script>
+    <script src="./js/vendors/swiper-bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+
+</body>
+
+</html>

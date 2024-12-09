@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="en" class="">
+
+<head>
+    <meta charset="utf-8">
+    <title>Mesa de Regalos  🎁</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="./images/biberon.png">
+
+    <link href="./css/vendors/aos.css" rel="stylesheet">
+    <link href="./style.css" rel="stylesheet">
+    <script>
+        if (localStorage.getItem('dark-mode') == 'true' || !('dark-mode' in localStorage)) {
+            document.querySelector('html').classList.add('dark');
+        } else {
+            document.querySelector('html').classList.remove('dark');
+        }        
+    </script>
+</head>
+
+<body class="font-inter antialiased bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-100 tracking-tight">
+
+    <!-- Page wrapper -->
+    <div class="flex flex-col min-h-screen overflow-hidden">
+
+        <!-- Site header -->
+        <header class="absolute w-full z-30">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6">
+                <div class="flex items-center justify-between h-20">
+
+                    <!-- Site branding -->
+                    <div class="shrink-0 mr-5">
+                        <!-- Logo -->
+                        <a class="block" href="index.html" aria-label="Cruip">
+                            <img src="./images/Stroller.png" alt="Logo" class="w-8 h-8">
+                        </a>
+                    </div>
+
+                    <!-- Desktop navigation -->
+                    <nav class="hidden md:flex md:grow">
+
+                        <!-- Desktop menu links -->
+                        <ul class="flex grow flex-wrap items-center font-medium">
+                            <li>
+                                <a class="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 px-5 py-2 flex items-center transition duration-150 ease-in-out" href="about.html">Mesas de Regalos</a>
+                            </li>
+                        </ul>
+
+                        <!-- Desktop lights switch -->
+                        <div class="form-switch flex flex-col justify-center ml-3">
+                            <input type="checkbox" name="light-switch" id="light-switch-desktop" class="light-switch sr-only" />
+                            <label class="relative" for="light-switch-desktop">
+                                <span class="relative bg-gradient-to-t from-gray-100 to-white dark:from-gray-800 dark:to-gray-700 shadow-sm z-10" aria-hidden="true"></span>
+                                <svg class="absolute inset-0" width="44" height="24" viewBox="0 0 44 24" xmlns="http://www.w3.org/2000/svg">
+                                    <g class="fill-current text-white" fill-rule="nonzero" opacity=".88">
+                                        <path d="M32 8a.5.5 0 00.5-.5v-1a.5.5 0 10-1 0v1a.5.5 0 00.5.5zM35.182 9.318a.5.5 0 00.354-.147l.707-.707a.5.5 0 00-.707-.707l-.707.707a.5.5 0 00.353.854zM37.5 11.5h-1a.5.5 0 100 1h1a.5.5 0 100-1zM35.536 14.829a.5.5 0 00-.707.707l.707.707a.5.5 0 00.707-.707l-.707-.707zM32 16a.5.5 0 00-.5.5v1a.5.5 0 101 0v-1a.5.5 0 00-.5-.5zM28.464 14.829l-.707.707a.5.5 0 00.707.707l.707-.707a.5.5 0 00-.707-.707zM28 12a.5.5 0 00-.5-.5h-1a.5.5 0 100 1h1a.5.5 0 00.5-.5zM28.464 9.171a.5.5 0 00.707-.707l-.707-.707a.5.5 0 00-.707.707l.707.707z" />
+                                        <circle cx="32" cy="12" r="3" />
+                                        <circle fill-opacity=".4" cx="12" cy="12" r="6" />
+                                        <circle fill-opacity=".88" cx="12" cy="12" r="3" />
+                                    </g>
+                                </svg>
+                                <span class="sr-only">Switch to light / dark version</span>
+                            </label>
+                        </div>
+                    </nav>
+
+                    <!-- Mobile menu -->
+                    <div class="inline-flex md:hidden" x-data="{ expanded: false }">
+
+                        <!-- Mobile lights switch -->
+                        <div class="form-switch flex flex-col justify-center mr-6">
+                            <input type="checkbox" name="light-switch" id="light-switch-mobile" class="light-switch sr-only" />
+                            <label class="relative" for="light-switch-mobile">
+                                <span class="relative bg-gradient-to-t from-gray-100 to-white dark:from-gray-800 dark:to-gray-700 shadow-sm z-10" aria-hidden="true"></span>
+                                <svg class="absolute inset-0" width="44" height="24" viewBox="0 0 44 24" xmlns="http://www.w3.org/2000/svg">
+                                    <g class="fill-current text-white" fill-rule="nonzero" opacity=".88">
+                                        <path d="M32 8a.5.5 0 00.5-.5v-1a.5.5 0 10-1 0v1a.5.5 0 00.5.5zM35.182 9.318a.5.5 0 00.354-.147l.707-.707a.5.5 0 00-.707-.707l-.707.707a.5.5 0 00.353.854zM37.5 11.5h-1a.5.5 0 100 1h1a.5.5 0 100-1zM35.536 14.829a.5.5 0 00-.707.707l.707.707a.5.5 0 00.707-.707l-.707-.707zM32 16a.5.5 0 00-.5.5v1a.5.5 0 101 0v-1a.5.5 0 00-.5-.5zM28.464 14.829l-.707.707a.5.5 0 00.707.707l.707-.707a.5.5 0 00-.707-.707zM28 12a.5.5 0 00-.5-.5h-1a.5.5 0 100 1h1a.5.5 0 00.5-.5zM28.464 9.171a.5.5 0 00.707-.707l-.707-.707a.5.5 0 00-.707.707l.707.707z" />
+                                        <circle cx="32" cy="12" r="3" />
+                                        <circle fill-opacity=".4" cx="12" cy="12" r="6" />
+                                        <circle fill-opacity=".88" cx="12" cy="12" r="3" />
+                                    </g>
+                                </svg>
+                                <span class="sr-only">Switch to light / dark version</span>
+                            </label>
+                        </div>
+
+                        <!-- Hamburger button -->
+                        <button class="hamburger" :class="{ 'active': expanded }" @click.stop="expanded = !expanded" aria-controls="mobile-nav" :aria-expanded="expanded">
+                            <span class="sr-only">Menu</span>
+                            <svg class="w-6 h-6 fill-current text-gray-900 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 transition duration-150 ease-in-out" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <rect y="4" width="24" height="2" rx="1" />
+                                <rect y="11" width="24" height="2" rx="1" />
+                                <rect y="18" width="24" height="2" rx="1" />
+                            </svg>
+                        </button>
+
+                        <!-- Mobile navigation -->
+                        <nav id="mobile-nav" class="fixed top-0 h-screen z-20 left-0 w-full max-w-sm -ml-16 overflow-scroll bg-white dark:bg-gray-900 shadow-lg no-scrollbar" @click.outside="expanded = false" @keydown.escape.window="expanded = false" x-show="expanded" x-transition:enter="transition ease-out duration-200 transform" x-transition:enter-start="opacity-0 -translate-x-full" x-transition:enter-end="opacity-100 translate-x-0" x-transition:leave="transition ease-out duration-200" x-transition:leave-start="opacity-100" x-transition:leave-end="opacity-0" x-cloak>
+                            <div class="py-6 pr-4 pl-20">
+                                <!-- Logo -->
+                                <a class="inline-block mb-4" href="index.html" aria-label="Cruip">
+                                    <svg class="w-8 h-8" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                                        <defs>
+                                            <linearGradient x1="26%" y1="100%" x2="100%" y2="100%" id="menulogo_a">
+                                                <stop stop-color="#3ABAB4" offset="0%" />
+                                                <stop stop-color="#7F9CF5" offset="100%" />
+                                            </linearGradient>
+                                            <linearGradient x1="26%" y1="100%" x2="100%" y2="100%" id="menulogo_b">
+                                                <stop stop-color="#3ABAB4" offset="0%" />
+                                                <stop stop-color="#3ABAB4" stop-opacity="0" offset="100%" />
+                                            </linearGradient>
+                                        </defs>
+                                        <path d="M32 16h-8a8 8 0 10-16 0H0C0 7.163 7.163 0 16 0s16 7.163 16 16z" fill="url(#menulogo_a)" />
+                                        <path d="M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16h8a8 8 0 1016 0h8z" fill="url(#menulogo_b)" />
+                                    </svg>
+                                </a>
+                                <!-- Links -->
+                                <ul>
+                                    <li>
+                                        <a class="flex text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 py-2" href="about.html">Mesas de Regalos</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+
+                    </div>
+
+                </div>
+            </div>
+        </header>
+
+        <!-- Page content -->
+        <main class="grow">
+
+            <!-- Hero -->
+            <section class="relative">
+
+                <!-- Background image -->
+                <div class="absolute inset-0 h-128 pt-16 box-content -z-1">
+                    <img class="absolute inset-0 w-full h-full object-cover opacity-25" src="./images/BabyGift1.jpg" width="1440" height="577" alt="About" />
+                    <div class="absolute inset-0 bg-gradient-to-t from-white dark:from-gray-900" aria-hidden="true"></div>
+                </div>
+
+                <div class="relative max-w-6xl mx-auto px-4 sm:px-6">
+                    <div class="pt-32 pb-12 md:pt-40 md:pb-20">
+                        <div class="text-center">
+                            <div class="relative flex justify-center items-center">
+                                <div class="relative inline-flex items-start" data-aos="fade-up">
+                                    <img class="opacity-50" src="./images/BabyGift2.webp" width="768" height="432" alt="About hero" />
+                                    <div class="absolute inset-0 bg-gradient-to-t from-white dark:from-gray-900" aria-hidden="true"></div>
+                                </div>
+                                <div class="absolute" data-aos="fade-down">
+                                    <h1 class="h1 lg:text-6xl font-red-hat-display">Mesas de <span class="text-teal-500">Regalos</span></h1>
+                                </div>
+                                <div class="absolute bottom-0 -mb-8 w-0.5 h-16 bg-gray-300 dark:bg-gray-700" aria-hidden="true"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+        <section>
+            <div class="py-12 md:py-20 border-t border-gray-200 dark:border-gray-800">
+    <div class="max-w-3xl mx-auto text-center pb-12 md:pb-20">
+        <h2 class="h2 font-red-hat-display mb-4" style="color: #ff9702;">Amazon</h2>
+        <div class="flex justify-center">
+            <a class="text-blue-600 hover:underline"
+                href="https://www.amazon.com.mx/baby-reg/renato-gomez-gg-gomez-febrero-2025-zapopan/31MZY29KMA25Z?ref_=cm_sw_r_cp_ud_dp_YRD1VYVZA0E45ZA7ZT13"
+                target="_blank" rel="noopener noreferrer">
+                <img src="./images/MesaDeRegalosAmazon.png" alt="Mesa de Regalos Amazon" width="1312"
+                    height="242" class="object-contain" />
+            </a>
+        </div>
+        <p class="text-3xl font-bold text-teal-500 mt-4 shadow-md">La favorita de Renato</p>
+        <p class="text-xl text-gray-600 dark:text-gray-400">
+            <a class="text-blue-600 hover:underline"
+                href="https://www.amazon.com.mx/baby-reg/renato-gomez-gg-gomez-febrero-2025-zapopan/31MZY29KMA25Z?ref_=cm_sw_r_cp_ud_dp_YRD1VYVZA0E45ZA7ZT13"
+                target="_blank" rel="noopener noreferrer">
+                Dale click a este <span class="font-bold" style="color: #ff9702;">link</span>
+            </a>
+        </p>
+        <p class="text-xl text-teal-500 mt-6 font-medium">Si no encuentras algo que te agrade, ¡no te preocupes!<br>
+        También puedes optar por una tarjeta de regalo de Amazon.<br>
+        Si decides hacerlo, puedes registrarla con el correo <span class="font-bold">guillermogomezmora@gmail.com</span>.<br> 
+        💌 ¡Tu regalo será igualmente apreciado! 💌</p>
+    </div>
+</div>
+        </section>
+
+            <!-- Career -->
+            <section class="relative border-t border-gray-200 dark:border-gray-800">
+                <!-- Background gradient -->
+                <div class="absolute inset-0 opacity-25 bg-gradient-to-b from-gray-100 to-white dark:from-gray-800 dark:to-gray-900 pointer-events-none"
+                    aria-hidden="true"></div>
+                <!-- End background gradient -->
+                <div class="relative max-w-6xl mx-auto px-4 sm:px-6">
+                    <div class="py-12 md:py-20">
+            
+                        <!-- Section header -->
+                        <div class="max-w-3xl mx-auto text-center pb-12 md:pb-20">
+                            <h2 class="h2 font-red-hat-display mb-4" style="color: #e10198;">Liverpool</h2>
+            
+                            <p class="text-xl text-gray-600 dark:text-gray-400">
+                                Número de mesa: <span style="color: #e10198;">51473457</span>.
+                                <br>
+                                <a class="text-blue-600 hover:underline"
+                                    href="https://mesaderegalos.liverpool.com.mx/milistaderegalos/51473457?_ga=2.150303348.337679438.1724519937-1983059842.1724519937"
+                                    target="_blank" rel="noopener noreferrer">
+                                    Este es el <span class="font-bold" style="color: #e10198;">link</span> para nuestra mesa de
+                                    regalos
+                                </a>
+                            </p>
+                            <br>
+                            <p class="text-gray-800 dark:text-gray-300 mb-3 text-sm">Solicita a un vendedor que escanee este código
+                                de festejado una
+                                vez que realices una compra en tienda.</p>
+            
+                            <div class="flex justify-center">
+                                <img src="./images/barcode.jpeg" alt="Código de festejado" class="object-contain" width="300"
+                                    height="300">
+                            </div>
+            
+                            <p class="text-lg mt-4 font-bold" style="color: #e10198;">¡Tu regalo será muy apreciado por Renato! 🎁
+                            </p>
+                        </div>
+            
+                    </div>
+                </div>
+            </section>
+
+            <!-- Features animation -->
+            <section>
+                <div class="max-w-6xl mx-auto px-4 sm:px-6">
+                    <div class="py-12 md:py-20 border-t border-gray-200 dark:border-gray-800">
+
+                        <!-- Section header -->
+                        <div class="max-w-3xl mx-auto text-center pb-12 md:pb-16">
+                            <h1 class="h2 font-red-hat-display mb-4">Algunas Ideas</h1>
+                            <p class="text-xl text-gray-600 dark:text-gray-400">Somos fan de los libros para leerle a Renato.</p>
+                        </div>
+
+                        <!-- Custom animation -->
+                        <div class="max-w-3xl mx-auto">
+                            <div class="relative flex justify-center items-center overflow-hidden">
+
+                                <!-- Big circle behind: light layout -->
+                                <svg class="dark:hidden" width="432" height="432" viewBox="0 0 432 432" xmlns="http://www.w3.org/2000/svg">
+                                    <defs>
+                                        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="48.919%" id="prefix__a">
+                                            <stop stop-color="#B2F5EA" stop-opacity=".64" offset="0%" />
+                                            <stop stop-color="#B2F5EA" stop-opacity="0" offset="100%" />
+                                        </radialGradient>
+                                    </defs>
+                                    <g fill="none" fill-rule="evenodd">
+                                        <circle fill="url(#prefix__a)" cx="216" cy="216" r="216" />
+                                        <g transform="translate(22 22)" stroke="#1D1D20">
+                                            <circle stroke-opacity=".04" cx="194" cy="194" r="193.5" />
+                                            <circle stroke-opacity=".08" stroke-width="2" cx="194" cy="194" r="153" />
+                                            <circle stroke-opacity=".16" stroke-width="2.5" cx="194" cy="194" r="112.75" />
+                                        </g>
+                                    </g>
+                                </svg>
+
+                                <!-- Big circle behind: dark layout -->
+                                <svg class="hidden dark:block" width="432" height="432" viewBox="0 0 432 432" xmlns="http://www.w3.org/2000/svg">
+                                    <defs>
+                                        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="50%" id="circleill_a">
+                                            <stop stop-color="#1D1D21" stop-opacity="0" offset="0%" />
+                                            <stop stop-color="#2E2E33" stop-opacity=".32" offset="100%" />
+                                        </radialGradient>
+                                    </defs>
+                                    <circle cx="216" cy="216" r="216" fill="url(#circleill_a)" fill-rule="evenodd" />
+                                </svg>
+
+                                <!-- Moving tags -->
+                                <div class="absolute inset-0">
+                                    <div class="absolute font-medium px-4 py-2 text-white dark:text-indigo-500 bg-gradient-to-tr from-indigo-500 to-indigo-400 dark:bg-indigo-500 dark:from-transparent dark:to-transparent dark:bg-opacity-25 rounded-full inline-flex items-center justify-center tags-animation mt-28">Ropita</div>
+                                    <div class="absolute font-medium px-4 py-2 text-white dark:text-teal-500 bg-gradient-to-tr from-teal-500 to-teal-400 dark:bg-teal-500 dark:from-transparent dark:to-transparent dark:bg-opacity-25 rounded-full inline-flex items-center justify-center tags-animation tags-1 mt-72">Juguetes</div>
+                                    <div class="absolute font-medium px-4 py-2 text-white dark:text-pink-500 bg-gradient-to-tr from-pink-500 to-pink-400 dark:bg-pink-500 dark:from-transparent dark:to-transparent dark:bg-opacity-25 rounded-full inline-flex items-center justify-center tags-animation tags-2 mt-40">Cuna</div>
+                                    <div class="absolute font-medium px-4 py-2 text-white dark:text-indigo-500 bg-gradient-to-tr from-indigo-500 to-indigo-400 dark:bg-indigo-500 dark:from-transparent dark:to-transparent dark:bg-opacity-25 rounded-full inline-flex items-center justify-center tags-animation tags-3 mt-80 top-4">Cobijas</div>
+                                    <div class="absolute font-medium px-4 py-2 text-white dark:text-indigo-500 bg-gradient-to-tr from-indigo-500 to-indigo-400 dark:bg-indigo-500 dark:from-transparent dark:to-transparent dark:bg-opacity-25 rounded-full inline-flex items-center justify-center tags-animation tags-4 mt-56">Biberones</div>
+                                    <div class="absolute font-medium px-4 py-2 text-white dark:text-pink-500 bg-gradient-to-tr from-pink-500 to-pink-400 dark:bg-pink-500 dark:from-transparent dark:to-transparent dark:bg-opacity-25 rounded-full inline-flex items-center justify-center tags-animation tags-4">Juguetes Montessori</div>
+                                    <div class="absolute font-medium px-4 py-2 text-white dark:text-teal-500 bg-gradient-to-tr from-teal-500 to-teal-400 dark:bg-teal-500 dark:from-transparent dark:to-transparent dark:bg-opacity-25 rounded-full inline-flex items-center justify-center tags-animation tags-5 mt-14">Libros</div>
+                                    <div class="absolute font-medium px-4 py-2 text-white dark:text-purple-500 bg-gradient-to-tr from-purple-500 to-purple-400 dark:bg-purple-500 dark:from-transparent dark:to-transparent dark:bg-opacity-25 rounded-full inline-flex items-center justify-center tags-animation tags-5 mt-80 top-4">Aventuras</div>
+                                    <div class="absolute font-medium px-4 py-2 text-white dark:text-indigo-500 bg-gradient-to-tr from-indigo-500 to-indigo-400 dark:bg-indigo-500 dark:from-transparent dark:to-transparent dark:bg-opacity-25 rounded-full inline-flex items-center justify-center tags-animation tags-6 mt-40">Chupones</div>
+                                    <div class="absolute font-medium px-4 py-2 text-white dark:text-indigo-500 bg-gradient-to-tr from-indigo-500 to-indigo-400 dark:bg-indigo-500 dark:from-transparent dark:to-transparent dark:bg-opacity-25 rounded-full inline-flex items-center justify-center tags-animation tags-7">Baberos</div>
+                                    <div class="absolute font-medium px-4 py-2 text-white dark:text-pink-500 bg-gradient-to-tr from-pink-500 to-pink-400 dark:bg-pink-500 dark:from-transparent dark:to-transparent dark:bg-opacity-25 rounded-full inline-flex items-center justify-center tags-animation tags-7 mt-72">Cambiador</div>
+                                    <div class="absolute font-medium px-4 py-2 text-white dark:text-purple-500 bg-gradient-to-tr from-purple-500 to-purple-400 dark:bg-purple-500 dark:from-transparent dark:to-transparent dark:bg-opacity-25 rounded-full inline-flex items-center justify-center tags-animation tags-8 mt-28">Pañales</div>
+                                    <div class="absolute font-medium px-4 py-2 text-white dark:text-teal-500 bg-gradient-to-tr from-teal-500 to-teal-400 dark:bg-teal-500 dark:from-transparent dark:to-transparent dark:bg-opacity-25 rounded-full inline-flex items-center justify-center tags-animation tags-9 mt-80 top-4">Mordedores</div>
+                                    <div class="absolute font-medium px-4 py-2 text-white dark:text-teal-500 bg-gradient-to-tr from-teal-500 to-teal-400 dark:bg-teal-500 dark:from-transparent dark:to-transparent dark:bg-opacity-25 rounded-full inline-flex items-center justify-center tags-animation tags-10 mt-56">Columpio</div>
+                                </div>
+
+                                <!-- Side gradients -->
+                                <div class="absolute top-0 bottom-0 left-0 w-20 bg-gradient-to-r from-white dark:from-gray-900" aria-hidden="true"></div>
+                                <div class="absolute top-0 bottom-0 right-0 w-20 bg-gradient-to-l from-white dark:from-gray-900" aria-hidden="true"></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <footer class="relative bg-gradient-to-r from-blue-500 via-indigo-500 to-purple-500 text-white">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6">
+                <div class="py-12 md:py-16 border-t border-gray-200 dark:border-gray-800 -mt-px text-center">
+        
+                    <!-- Footer illustration -->
+                    <div class="pointer-events-none -z-1" aria-hidden="true">
+                        <svg class="absolute bottom-0 left-0 transform -translate-x-1/2 ml-24 dark:opacity-40" width="800"
+                            height="264" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="400" cy="400" r="400" fill="url(#footerglow_paint0_radial)" fill-opacity=".4" />
+                            <defs>
+                                <radialGradient id="footerglow_paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+                                    gradientTransform="rotate(90 0 400) scale(315.089)">
+                                    <stop stop-color="#3ABAB4" />
+                                    <stop offset="1" stop-color="#3ABAB4" stop-opacity=".01" />
+                                </radialGradient>
+                            </defs>
+                        </svg>
+                    </div>
+        
+                    <!-- Logo -->
+                    <div class="mb-8">
+                        <a href="/" aria-label="El Men-cito">
+                            <svg class="w-12 h-12 mx-auto" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="16" cy="16" r="16" fill="#FFD700" />
+                                <text x="16" y="21" font-size="16" text-anchor="middle" fill="#FF6347">👶</text>
+                            </svg>
+                        </a>
+                    </div>
+        
+                    <!-- Fun text -->
+                    <div class="text-lg font-bold">
+                        <p>¡Gracias por tu visita a la página de Reanto El Mini-Men!, ya quiero conocerte!</p>
+                        <p>© El Men y La Men, todos los derechos son nuestros.</p>
+                    </div>
+        
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="./js/vendors/alpinejs.min.js" defer></script>
+    <script src="./js/vendors/aos.js"></script>
+    <script src="./js/main.js"></script>
+
+</body>
+
+</html>
